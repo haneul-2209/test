@@ -2,15 +2,15 @@
   {
     "objectID": "index.html#welcome",
     "href": "index.html#welcome",
-    "title": "KAIST Design, Build",
+    "title": "자동화 장비 정보 사이트",
     "section": "0.1 Welcome",
-    "text": "0.1 Welcome\n\nHaseong Kim (at KRIBB, EB at KAIST)\n2024년 1학기 카이스트 공학생물학대학원 설계제작 강의 노트\ngithub site: https://github.com/greendaygh/kaist_design_build_2024\nwebsite: https://greendaygh.github.io/kaist_design_build_2024/"
+    "text": "0.1 Welcome\n\nBiofoundry at KRIBB\n바이오파운드리 장비리스트 및 사용법\ngithub site: [https://github.com/haneul-2209/test]\nwebsite: [https://haneul-2209.github.io/test]"
   },
   {
     "objectID": "index.html#환경",
     "href": "index.html#환경",
-    "title": "KAIST Design, Build",
+    "title": "자동화 장비 정보 사이트",
     "section": "0.2 환경",
-    "text": "0.2 환경\n\n실습 환경은 colab을 활용하며 파일 저장 등은 구글 드라이브 활용"
+    "text": "0.2 환경"
   }
 ]
