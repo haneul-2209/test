@@ -1,0 +1,27 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "자동화 장비 정보 사이트"
+  reader-mode: true
+  author: "Haneul"
+  date: "2024-06-03"
+  page-footer: 
+    left: | 
+      2024 Biofoundry by haneul
+    right: | 
+      This book was built with Quarto
+  chapters:
+    - index.qmd
+
+  
+  
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
