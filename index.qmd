@@ -4,11 +4,11 @@ title: "Home"
 
 ## Welcome
 
-- Biofoundry at KRIBB
-- 바이오파운드리 장비리스트 및 사용법
-- github site: [https://github.com/haneul-2209/test]
-- website: [https://haneul-2209.github.io/test]
+-   Biofoundry at KRIBB
+-   바이오파운드리 장비리스트 및 사용법
+-   github site: \[https://github.com/haneul-2209/test\]
+-   website: \[https://haneul-2209.github.io/test\]
 
-## 환경
+## 장비리스트
 
-- 
+-   ![](images/paste-2.png)

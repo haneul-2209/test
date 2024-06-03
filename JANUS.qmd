@@ -1,0 +1,98 @@
+---
+title: "Home"
+---
+
+## 장비소개
+
+-   ![](images/paste-3.png)
+
+## 메뉴얼 파일 위치
+
+-   share:\\19_Equipment\Biofoundry\바이오파운드리\_장비_user's_guide
+
+-   
+
+## 사용법
+
+### Labware list
+
+▶ 목록 외 labware 사용 시 'Labware setting'을 통해 추가 가능함 - 1 Well Plate - 108 well plate - 1536 well plate - 384 well plate - 96 well plate - Big well plate - BioTx - Drug Transport (Caco-2) Plates - Microfuge (1.8 ml/2.0 ml) - Vials
+
+#### Labware: Reservoirs
+
+▶ Reagent 분주 시 reaction 수에 따라 적정 용량의 reservoir 를 사용하면 protocol 시간을 단축할 수 있습니다.
+
+<table>
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><p>Reserovir</p></th>
+<th><p>trough</p></th>
+<th><p>24 well (deep)</p></th>
+<th><p>48 well</p></th>
+<th><p>Washbolwl + 1trough</p></th>
+<th><p>Washbowl+ 2 trough</p></th>
+<th><p>4 well</p></th>
+<th><p>8 row</p></th>
+<th><p>12 column</p></th>
+<th><p>12 column (low profile)</p></th>
+<th><p>1 well</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><p>Well</p></td>
+<td><p>4</p></td>
+<td><p>24</p></td>
+<td><p>48</p></td>
+<td><p>1</p></td>
+<td><p>2</p></td>
+<td><p>4</p></td>
+<td><p>8</p></td>
+<td><p>12</p></td>
+<td><p>12</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><p>Volume (ml)</p></td>
+<td><p>60</p></td>
+<td><p>10</p></td>
+<td><p>5/7.5</p></td>
+<td></td>
+<td></td>
+<td><p>73</p></td>
+<td></td>
+<td><p>21</p></td>
+<td></td>
+<td><p>287</p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><p>Part. no.</p></td>
+<td></td>
+<td><p>No77777236</p></td>
+<td><p>No777237</p>
+<p>No777238</p></td>
+<td></td>
+<td></td>
+<td><p>600 9710</p></td>
+<td></td>
+<td><p>600 8700</p></td>
+<td></td>
+<td><p>600 8730</p></td>
+</tr>
+</tbody>
+</table>
+
+![![](images/paste-6.png)](images/paste-5.png)
