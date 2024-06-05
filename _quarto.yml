@@ -13,8 +13,27 @@ book:
     right: | 
       This book was built with Quarto
   chapters:
-    - index.qmd
+    - index.qmd   
+    1. Fully automated
+    - plateworks.qmd
     - JANUS.qmd
+    - Zephyr.qmd
+    - TrobotII.qmd
+    - 5400_Fragment_analyzer.qmd
+    2. Build
+    - OT-2.qmd
+    - ATS.qmd
+    - Qiacube.qmd
+    - K6^2.qmd
+    3. Test
+    - SPARK.qmd
+    - FACSAria.qmd
+    - iSeq.qmd
+    - GridION.qmd
+    
+
+    
+
 
   
   
