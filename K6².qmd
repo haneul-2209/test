@@ -1,5 +1,5 @@
 ---
-title: "K6^2_Colony picker"
+title: "K6²_Colony picker"
 ---
 
 ## 장비소개
@@ -12,3 +12,4 @@ title: "K6^2_Colony picker"
 
 ## 사용법
 
+ㅅㄲㄸㅈㅉㅉㅂㅃㅁㄴㅇㄹㅌ²

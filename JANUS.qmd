@@ -1,6 +1,4 @@
----
 title: "JANUS"
----
 
 -   ![](images/paste-13.png){width="218"}
 
@@ -28,7 +26,7 @@ title: "JANUS"
 
 ## 메뉴얼파일 위치
 
--   share:\\19_Equipment\Biofoundry\바이오파운드리_장비_user's_guide
+-   share:\\19_Equipment\Biofoundry\바이오파운드리\_장비_user's_guide
 
 ## Labware
 
@@ -83,65 +81,11 @@ title: "JANUS"
 
 ▶ Reagent 분주 시 reaction 수에 따라 적정 용량의 reservoir 를 사용하면 protocol 시간을 단축할 수 있습니다.
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><p>Reserovir</p></th>
-<th><p>trough</p></th>
-<th><p>24 well (deep)</p></th>
-<th><p>48 well</p></th>
-<th><p>Washbolwl + 1trough</p></th>
-<th><p>Washbowl+ 2 trough</p></th>
-<th><p>4 well</p></th>
-<th><p>8 row</p></th>
-<th><p>12 column</p></th>
-<th><p>12 column (low profile)</p></th>
-<th><p>1 well</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><p>Well</p></td>
-<td><p>4</p></td>
-<td><p>24</p></td>
-<td><p>48</p></td>
-<td><p>1</p></td>
-<td><p>2</p></td>
-<td><p>4</p></td>
-<td><p>8</p></td>
-<td><p>12</p></td>
-<td><p>12</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><p>Volume (ml)</p></td>
-<td><p>60</p></td>
-<td><p>10</p></td>
-<td><p>5/7.5</p></td>
-<td></td>
-<td></td>
-<td><p>73</p></td>
-<td></td>
-<td><p>21</p></td>
-<td></td>
-<td><p>287</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><p>Part. no.</p></td>
-<td></td>
-<td><p>No77777236</p></td>
-<td><p>No777237</p>
-<p>No777238</p></td>
-<td></td>
-<td></td>
-<td><p>600 9710</p></td>
-<td></td>
-<td><p>600 8700</p></td>
-<td></td>
-<td><p>600 8730</p></td>
-</tr>
-</tbody>
-</table>
+| Reservoir | 2 trough+ 2 trough | 24 well (deep) | 48 well            | Washbowl + 1 trough | Washbowl + 2 trough | 4 well   | 8 row | 12 column | 12 column (low profile) | 1 well   |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| Well      | 4                  | 24             | 48                 | 1                   | 2                   | 4        | 8     | 12        | 12                      | 1        |
+| volume    | 60 ml              | 10 ml          | 5 ml/7.5 ml        |                     |                     | 73 ml    |       | 21 ml     |                         | 287 ml   |
+| Part no.  |                    | N07777236      | N0777237 ,N0777238 |                     |                     | 600 8710 |       | 600 8700  |                         | 600 8730 |
 
 ![![](images/paste-6.png)](images/paste-5.png)
 
@@ -154,3 +98,15 @@ title: "JANUS"
 -   Plate Carrier, Tip waste, Flush/Wash, Robot Arm 위치는 고정으로 변경할 수 없음. (하드웨어 상의 고정 위치)
 
 ![](images/paste-8.png)
+
+### Performance file
+
+-   pipetting 동작 관련된 옵션을 조정할 수 있는 파일
+
+-   사용하려는 reagent의 viscosity, mix 속도 등을 조정할 수 있음
+
+-   1개의 source에서 여러 well로 동일하게 분주할 경우 repeat dispense를 하면 tip 사용량을 줄이고 빠르게 진행할 수 있음
+
+    -   다만 마지막 well의 분주양이 부족하다면 performance file 중 aspiration volume 구간에서 'waste volume' 을 넣어주면 해결 가능
+
+###

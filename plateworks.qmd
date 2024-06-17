@@ -1,0 +1,9 @@
+---
+title: "plateworks"
+---
+
+## 소개
+
+-   스케쥴링 프로그램으로 full automation을 진행하기 위해서는 plateworks를 이용한 메소드 설정이 필요함
+
+-
