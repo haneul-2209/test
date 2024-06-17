@@ -11,7 +11,7 @@
     "href": "index.html#장비리스트",
     "title": "자동화 장비 정보 사이트",
     "section": "0.2 장비리스트",
-    "text": "0.2 장비리스트"
+    "text": "0.2 장비리스트\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n장비명\n제조사\nUnitprocess\n기능\n\n\n\n\nFull automation\nJANUS\nPerkin Elmer(revvity)\nLiquid transfer\nautomated multiple dispenser system8-channel pipettes: 1 - 1000 ul5 ul volume: <2% CVvarious reservoirs96 / 384 / 1536 well plate- PCA mix, PCR mix, Gibson mix, Yeast TF mix, Enzyme, broth, cell spotting\n\n\nFull automation\nZephyr\nPerkin Elmer(revvity)\nLiquid transferPCR purificationNGS preparationTransformation\n96-channel pipettes: 1-200 ul1-5 ul volume: <5% CV, 5-200 ul: <2% CV4-70 ℃ thermal heater and shaker96 well/384 well plate- Magnetic plate for DNA purification with magnetic bead\n\n\nFull automation\nEcho525\nBeckman Coulter\nLiquid transfer\nAcoustic liquid dispenserAverage 300 drops/sce, 25 nl drop volume, <8% CV96 / 384 / 1536 well plate- primers & probes, substrate, direct dilution\n\n\nFull automation\nTrobot II\nAnalytik-jena\nThermocyclingIncubation\n96 well blockSilver block with gold coatingProposed sample volume: 5- 100 ulmaximum heating: 5.0 ℃/sAverage heating: 4.9 ℃/s- Enzyme reaction, Thermocycling\n\n\nFull automation\n5400 Fragment analyzer\nAgilent\nAnalysis\n96-capillary arraysRunning time: 96 samples in 1 hours (spec. 2,400 samples in 24 hours )High-resolution separation: 2% accuracyBroad assay portfolio- gDNA, NGS libraries, DNA fragments, total RNA, small RNA mRNA vaccines\n\n\nFull automation\nStoreX STX44\nLiCONiC\nStorage\nAutomated storage for robotic integrationMaximum 44 standard microplates (Included 2 stack)Temperature Control: 4℃ to 50℃Loading Plate Time: under 6 seconds\n\n\nFull automation\nLPX220\nLiCONiC\nStorage\nAutomated microplate hotelwith 10 racksDeep Well Plates (Plate Height: 44 mm, 53 mm)Microliter plates (Plate Height: 17 mm, 22 mm, 23 mm, 27 mm)DiTi200 (Plate Height: 66 mm)DiTi1000 (Plate Height: 104 mm)\n\n\nFull automation\nPlateStak™\nPerkin Elmer(revvity)\nStorage\nAutomated plate stacker system\n\n\nFull automation\nIntelliXcap™ Tube Capper & Decapper\nAzenta\nsample\nAmbient operating temperature: 5℃ to 40℃Capping/decapping speed: 20-40 sec to decap or to recap a rack of tubes*External tube cartridge set up\n\n\nFull automation\nPFLEX\nPerkin Elmer(revvity)\nRobot arm\n\n\n\nAutomation\nOT-2\nopentrons\nLiquid transfer\nSingle and 8-Channel pipette (P20)Thermocycler ModuleMagnetic ModuleOpen protocol1.5 mL, 1.8 mL, 2. mL micro tube/8-strips 0.2 ml tubes/96 well plate\n\n\nAutomation\nATS\nABLE Labs with KRIBB\nTransformation\nAutomated Transformation System4-70 ℃ thermal heater and shaker8-channel pipettes: 1~ 1000 uL\n\n\nAutomation\nQIAcube\nQiagen\nSample prep\nAutomated DNA/RNA prepVarious sample types (spin-column)QIAGEN spin KitBlood & Tissue, DNA Mini, Fecal, RNA, Viral RNAMaximum 12 samplesApplications-  Sequencing/sequencing analysis, gene expression analysis, genotyping, proteomics, microbiome research\n\n\nAutomation\nK62 picker\nKBIOSYSTEMS\nColony picking\nBenchtop Automated Colony Picking SystemPick From: Bio-Assay Trays, 50 – 150 mm Culture Dishes, Omni Trays, 6 to 24 well growth platesInoculate into: 96, 384, 1536 well plates, omni trays16 pin picking head capable of over 1000 Colonies Per Hours\n\n\nAnalysis\nSpark®\nTECAN\nMicroplate reading\nMulti detection microplate readerAbsorbance, fluorescence, time resolved fluorescence, FRET, TR-FRET, luminescence, automated live cell imagingEnd-point, kinetic, spectral scanning, well-area scanning or equivalentTemperature control : RT+3 ℃ - 42 ℃ELISA\n\n\nAnalysis\nFACSAria III\nBD\nCell sorting\nAutomated high speed cytometry systemMaximum sample acquisition: 100,000 cells per secondOptimum sorting rate: 20,000 – 50,000 cells/sec (MAX. 70,000 cell/sec)Lasers : 488 nm blue laser (20 mW), 633 nm red laser (18 mW)Detector array : Octagon (FITC, PE, PE-Texas Red, PerCP, PE-Cy7), Trigon (APC, APC-Cy7)Nozzles : 70, 85 micronSort collection devices : Two-way sorting (15 mL tubes), Four-way sorting (12x75 mm tubes), Plate sorting\n\n\nAnalysis\niSeq 100\nillumina\nShort read sequence analysis\nShort read: max output 1.2 Gb (19 hours)Reads per run: 4 millionMax read length: 2 x 150 bp\n\n\nAnalysis\nGridION\nOxford NANOPORE\nLong read sequence analysis\nRun multiple DNA/RNA sequencing experiments: 1 -5 flow cellsLong read: up to 250 Gb (72 hours at 420 bases/sec)"
   },
   {
     "objectID": "JANUS.html#장비소개",
@@ -23,30 +23,30 @@
   {
     "objectID": "JANUS.html#장비위치",
     "href": "JANUS.html#장비위치",
-    "title": "3  JANUS",
-    "section": "3.2 장비위치",
-    "text": "3.2 장비위치\n\nFully Automation_DNA workstation housing 내에 위치"
+    "title": "3  장비소개",
+    "section": "3.1 장비위치",
+    "text": "3.1 장비위치\n\nFully Automation_DNA workstation housing 내에 위치"
   },
   {
     "objectID": "JANUS.html#메뉴얼파일-위치",
     "href": "JANUS.html#메뉴얼파일-위치",
-    "title": "3  JANUS",
-    "section": "3.3 메뉴얼파일 위치",
-    "text": "3.3 메뉴얼파일 위치\n\nshare:\\19_Equipment_장비_user’s_guide"
+    "title": "3  장비소개",
+    "section": "3.2 메뉴얼파일 위치",
+    "text": "3.2 메뉴얼파일 위치\n\nshare:\\19_Equipment_장비_user’s_guide"
   },
   {
     "objectID": "JANUS.html#labware",
     "href": "JANUS.html#labware",
-    "title": "3  JANUS",
-    "section": "3.4 Labware",
-    "text": "3.4 Labware\n\n3.4.1 Support: 위치를 고정하는 Tile\n\nPlate-Adapter Support Tile\nPlate-Adapter Solid Med Support Tile: with Robotarm\nPlate Carrier\n\n\n\n3.4.2 Labware: Disposable Tips\n\n25ul Conductive Filter RoboRack Tips\n175ul Conductive Filter\n900ul Conductive Filter Tips\n\n\n\n3.4.3 Labware: plate, tube\n▶ 목록 외 labware 사용 시 ’Labware setting’을 통해 추가 가능함\n\n1 Well Plate\n108 well plate\n1536 well plate\n384 well plate\n\n384 square well: Nunc, Packard, Porvair, Costar\n384 well clear bottom: Biocoat, Costar, Falcon, Greiner, NUNC, Packard, PE ViewPlate,\n384 well clear bottom low volume: Greiner\n384 well filter plate: Whatman\n384 well flat bottom smal volume: Greiner\n384 well PCR plate: Costar, MJResearch, Polyfiltronics\n\n96 well plate\n\n96 Deep Well Filter Plate: 3M Empore, Ansys, Promega, Qiagen, Varian,\n96 Deep Well plate: BIONEER, perkinelmer-2ml, Beckman, Elkay, Axygen, Falcon-1ml, Mega, Polyfiltronics, Porvair, Qiagen, Seahorse, macrogen_oligo, Bioneer_oligo_plate\n96 Well Clear bottom: Biocoat, Costar, Falcon, Greiner, PE ViewPlate,\n96 well Filter Plate: Milapore, Packard, Whatman\n96 well flat bottom: Evergreen, NUNC, Porvair, Costar\n96 well PCR plate: BioRad, eppendorf, eppendorf_on_ice_rack, SSIBIO, SSIBIO_on_ice_rack\n96 well PCR rack: KRIBB, perkinelmer, 0.2ml_8-strips_tube\n96 well round: Costar, Corning, Falcon\nV-bottom plate: perkinelmer_V-bottom_Shortplate, Greiner\n\nBig well plate\n\n12 big well: Evergreen\n24 big well: Evergreen, Packard\n\nBioTx\nDrug Transport (Caco-2) Plates\nMicrofug\n\nKRIBB_24Pos_Tube\nKRIBB_2ml_Tube\n\nVials\n\n2ml_vial_32pos\n\n\n\n3.4.3.1 Labware: Reservoirs\n▶ Reagent 분주 시 reaction 수에 따라 적정 용량의 reservoir 를 사용하면 protocol 시간을 단축할 수 있습니다.\n\n\n\n\n\n\nReserovir\n\n\n\n\ntrough\n\n\n\n\n24 well (deep)\n\n\n\n\n48 well\n\n\n\n\nWashbolwl + 1trough\n\n\n\n\nWashbowl+ 2 trough\n\n\n\n\n4 well\n\n\n\n\n8 row\n\n\n\n\n12 column\n\n\n\n\n12 column (low profile)\n\n\n\n\n1 well\n\n\n\n\n\n\n\n\nWell\n\n\n\n\n4\n\n\n\n\n24\n\n\n\n\n48\n\n\n\n\n1\n\n\n\n\n2\n\n\n\n\n4\n\n\n\n\n8\n\n\n\n\n12\n\n\n\n\n12\n\n\n\n\n1\n\n\n\n\n\n\nVolume (ml)\n\n\n\n\n60\n\n\n\n\n10\n\n\n\n\n5/7.5\n\n\n\n\n\n\n\n\n73\n\n\n\n\n\n\n21\n\n\n\n\n\n\n287\n\n\n\n\n\n\nPart. no.\n\n\n\n\n\n\nNo77777236\n\n\n\n\nNo777237\n\n\nNo777238\n\n\n\n\n\n\n\n\n600 9710\n\n\n\n\n\n\n600 8700\n\n\n\n\n\n\n600 8730"
+    "title": "3  장비소개",
+    "section": "3.3 Labware",
+    "text": "3.3 Labware\n\n3.3.1 Support: 위치를 고정하는 Tile\n\nPlate-Adapter Support Tile\nPlate-Adapter Solid Med Support Tile: with Robotarm\nPlate Carrier\n\n\n\n3.3.2 Labware: Disposable Tips\n\n25ul Conductive Filter RoboRack Tips\n175ul Conductive Filter\n900ul Conductive Filter Tips\n\n\n\n3.3.3 Labware: plate, tube\n▶ 목록 외 labware 사용 시 ’Labware setting’을 통해 추가 가능함\n\n1 Well Plate\n108 well plate\n1536 well plate\n384 well plate\n\n384 square well: Nunc, Packard, Porvair, Costar\n384 well clear bottom: Biocoat, Costar, Falcon, Greiner, NUNC, Packard, PE ViewPlate,\n384 well clear bottom low volume: Greiner\n384 well filter plate: Whatman\n384 well flat bottom smal volume: Greiner\n384 well PCR plate: Costar, MJResearch, Polyfiltronics\n\n96 well plate\n\n96 Deep Well Filter Plate: 3M Empore, Ansys, Promega, Qiagen, Varian,\n96 Deep Well plate: BIONEER, perkinelmer-2ml, Beckman, Elkay, Axygen, Falcon-1ml, Mega, Polyfiltronics, Porvair, Qiagen, Seahorse, macrogen_oligo, Bioneer_oligo_plate\n96 Well Clear bottom: Biocoat, Costar, Falcon, Greiner, PE ViewPlate,\n96 well Filter Plate: Milapore, Packard, Whatman\n96 well flat bottom: Evergreen, NUNC, Porvair, Costar\n96 well PCR plate: BioRad, eppendorf, eppendorf_on_ice_rack, SSIBIO, SSIBIO_on_ice_rack\n96 well PCR rack: KRIBB, perkinelmer, 0.2ml_8-strips_tube\n96 well round: Costar, Corning, Falcon\nV-bottom plate: perkinelmer_V-bottom_Shortplate, Greiner\n\nBig well plate\n\n12 big well: Evergreen\n24 big well: Evergreen, Packard\n\nBioTx\nDrug Transport (Caco-2) Plates\nMicrofug\n\nKRIBB_24Pos_Tube\nKRIBB_2ml_Tube\n\nVials\n\n2ml_vial_32pos\n\n\n\n3.3.3.1 Labware: Reservoirs\n▶ Reagent 분주 시 reaction 수에 따라 적정 용량의 reservoir 를 사용하면 protocol 시간을 단축할 수 있습니다.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReservoir\n2 trough+ 2 trough\n24 well (deep)\n48 well\nWashbowl + 1 trough\nWashbowl + 2 trough\n4 well\n8 row\n12 column\n12 column (low profile)\n1 well\n\n\n\n\nWell\n4\n24\n48\n1\n2\n4\n8\n12\n12\n1\n\n\nvolume\n60 ml\n10 ml\n5 ml/7.5 ml\n\n\n73 ml\n\n21 ml\n\n287 ml\n\n\nPart no.\n\nN07777236\nN0777237 ,N0777238\n\n\n600 8710\n\n600 8700\n\n600 8730"
   },
   {
     "objectID": "JANUS.html#프로토콜-만들기",
     "href": "JANUS.html#프로토콜-만들기",
-    "title": "3  JANUS",
-    "section": "3.5 프로토콜 만들기",
-    "text": "3.5 프로토콜 만들기\n\n3.5.1 Base Layout\n\n[Layout_Template_1.MPT] 파일을 열어 ’다른 이름으로 저장’하여 작성.\nPlate Carrier, Tip waste, Flush/Wash, Robot Arm 위치는 고정으로 변경할 수 없음. (하드웨어 상의 고정 위치)"
+    "title": "3  장비소개",
+    "section": "3.4 프로토콜 만들기",
+    "text": "3.4 프로토콜 만들기\n\n3.4.1 Base Layout\n\n[Layout_Template_1.MPT] 파일을 열어 ’다른 이름으로 저장’하여 작성.\nPlate Carrier, Tip waste, Flush/Wash, Robot Arm 위치는 고정으로 변경할 수 없음. (하드웨어 상의 고정 위치)\n\n\n\n\n3.4.2 Performance file\n\npipetting 동작 관련된 옵션을 조정할 수 있는 파일\n사용하려는 reagent의 viscosity, mix 속도 등을 조정할 수 있음\n1개의 source에서 여러 well로 동일하게 분주할 경우 repeat dispense를 하면 tip 사용량을 줄이고 빠르게 진행할 수 있음\n\n다만 마지막 well의 분주양이 부족하다면 performance file 중 aspiration volume 구간에서 ‘waste volume’ 을 넣어주면 해결 가능\n\n\n\n\n3.4.3"
   },
   {
     "objectID": "Zephyr.html#장비소개",
@@ -278,5 +278,33 @@
     "title": "14  GridION",
     "section": "14.3 사용법",
     "text": "14.3 사용법"
+  },
+  {
+    "objectID": "plateworks.html#소개",
+    "href": "plateworks.html#소개",
+    "title": "2  plateworks",
+    "section": "2.1 소개",
+    "text": "2.1 소개\n\n스케쥴링 프로그램으로 full automation을 진행하기 위해서는 plateworks를 이용한 메소드 설정이 필요함"
+  },
+  {
+    "objectID": "K6².html#장비소개",
+    "href": "K6².html#장비소개",
+    "title": "10  K6²_Colony picker",
+    "section": "10.1 장비소개",
+    "text": "10.1 장비소개"
+  },
+  {
+    "objectID": "K6².html#메뉴얼-파일-위치",
+    "href": "K6².html#메뉴얼-파일-위치",
+    "title": "10  K6²_Colony picker",
+    "section": "10.2 메뉴얼 파일 위치",
+    "text": "10.2 메뉴얼 파일 위치"
+  },
+  {
+    "objectID": "K6².html#사용법",
+    "href": "K6².html#사용법",
+    "title": "10  K6²_Colony picker",
+    "section": "10.3 사용법",
+    "text": "10.3 사용법\nㅅㄲㄸㅈㅉㅉㅂㅃㅁㄴㅇㄹㅌ²"
   }
 ]
