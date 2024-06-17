@@ -1,6 +1,9 @@
+---
 title: "JANUS"
+---
 
 -   ![](images/paste-13.png){width="218"}
+
 
 ## 장비소개
 

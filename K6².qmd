@@ -12,4 +12,3 @@ title: "K6²_Colony picker"
 
 ## 사용법
 
-ㅅㄲㄸㅈㅉㅉㅂㅃㅁㄴㅇㄹㅌ²
