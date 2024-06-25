@@ -1,5 +1,5 @@
 ---
-title: "iSeq"
+title: "iSeq: short read NGS"
 ---
 
 ## 장비소개

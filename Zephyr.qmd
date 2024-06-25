@@ -1,14 +1,82 @@
 ---
-title: "Zephyr"
+title: "Zephyr: 96-channel Liquid handler"
 ---
 
 ## 장비소개
 
-
-
 ## 메뉴얼 파일 위치
-
-
 
 ## 사용법
 
+## Application (unit process)
+
+### NGS sample preparation
+
+### 시약
+
+-   Nanopore sequencing Kit
+
+### 준비물
+
+-   시작물질: barcodePCR 반응액
+
+### 프로토콜
+
+-   Nanopore pooling
+
+### PCR fragment purification
+
+#### 시약
+
+-   MagListo 5M PCR purification Kit (Bioneer)
+
+#### 준비물
+
+-   시작물질: PCR 반응액
+
+-   
+
+#### 프로토콜
+
+-   Purification1
+
+### E. coli Transformation
+
+#### 시약
+
+#### 준비물
+
+#### 프로토콜
+
+### Plasmid Extraction
+
+#### 시약
+
+-   Wizard MagneSil Plasmid Purifiaction System (Promega)
+
+#### 준비물
+
+-   Deep well plate 용 shaker 추가 설치 필요
+
+    -   2024-06월 현재 Zephyr에 설치된 shaker는 2mm orbital, 96-well PCR plate용으로 deep well plate 을 사용하게 되면 제대로 docking 되지 않아 rpm을 낮게 설정해야함. 낮은 rpm 값은 bead binding 과 washing, elution에 영향을 미쳐 효율이 좋지 않을 수 있음.
+
+-   96 well magnetic rod 추가 구매 필요
+
+    -   Zephyr에 설치된 magnetic plate는 'Ring magnet'으로 liquid handler 이용 시 bead loss 가 발생할 수 있어 '4 point post Magnet'을 권장함
+
+    ```{=html}
+    <!-- -->
+    ```
+    -   ![](images/paste-27.png){width="590"}
+
+#### 프로토콜
+
+### Protein purification
+
+#### 시약
+
+-   Affinity magnetic bead
+
+#### 준비물
+
+-   시작물질: cell lysate - tagged protein

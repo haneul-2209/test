@@ -1,5 +1,5 @@
 ---
-title: "JANUS"
+title: "JANUS: Liquid handler"
 ---
 
 -   ![](images/paste-13.png){width="218"}
@@ -79,7 +79,7 @@ title: "JANUS"
 -   Vials
     -   2ml_vial_32pos
 
-#### Labware: Reservoirs
+### Labware: Reservoirs
 
 ▶ Reagent 분주 시 reaction 수에 따라 적정 용량의 reservoir 를 사용하면 protocol 시간을 단축할 수 있습니다.
 

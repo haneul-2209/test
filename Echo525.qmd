@@ -1,5 +1,5 @@
 ---
-title: "Echo525"
+title: "Echo525: Nanoliter dispensor"
 ---
 
 ## 장비소개
