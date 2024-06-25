@@ -12,15 +12,15 @@ title: "Zephyr: 96-channel Liquid handler"
 
 ### NGS sample preparation
 
-### 시약
+#### 시약
 
 -   Nanopore sequencing Kit
 
-### 준비물
+#### 준비물
 
 -   시작물질: barcodePCR 반응액
 
-### 프로토콜
+#### 프로토콜
 
 -   Nanopore pooling
 
@@ -79,3 +79,5 @@ title: "Zephyr: 96-channel Liquid handler"
 #### 준비물
 
 -   시작물질: cell lysate - tagged protein
+
+#### 프로토콜
