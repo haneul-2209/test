@@ -64,9 +64,8 @@ title: "Zephyr: 96-channel Liquid handler"
 
     -   Zephyr에 설치된 magnetic plate는 'Ring magnet'으로 liquid handler 이용 시 bead loss 가 발생할 수 있어 '4 point post Magnet'을 권장함
 
-    ```{=html}
     <!-- -->
-    ```
+
     -   ![](images/paste-27.png){width="590"}
 
 #### 프로토콜
