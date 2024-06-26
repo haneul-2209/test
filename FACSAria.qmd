@@ -2,7 +2,16 @@
 title: "FACSAriaII"
 ---
 
+![](images/paste-41.png){width="189"}
+
 ## 장비소개
+- Automated high speed cytometry system
+- Maximum sample acquisition: 100,000 cells per second
+- Optimum sorting rate: 20,000 – 50,000 cells/sec (MAX. 70,000 cell/sec)
+- Lasers : 488 nm blue laser (20 mW), 633 nm red laser (18 mW)
+- Detector array : Octagon (FITC, PE, PE-Texas Red, PerCP, PE-Cy7), Trigon (APC, APC-Cy7)
+- Nozzles : 70, 85 micron
+- Sort collection devices : Two-way sorting (15 mL tubes), Four-way sorting (12x75 mm tubes), Plate sorting
 
 
 

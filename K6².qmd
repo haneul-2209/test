@@ -2,13 +2,15 @@
 title: "K6²: Colony picker"
 ---
 
-## 장비소개
+![](images/paste-37.png){width="155"}
 
+## 장비소개
+- Benchtop Automated Colony Picking System
+- Pick From: Bio-Assay Trays, 50 – 150 mm Culture Dishes, Omni Trays, 6 to 24 well growth plates
+- Inoculate into: 96, 384, 1536 well plates, omni trays
+- 16 pin picking head capable of over 1000 Colonies Per Hours
 
 
 ## 메뉴얼 파일 위치
 
-
-
 ## 사용법
-

@@ -2,7 +2,11 @@
 title: "GridION: Long read NGS"
 ---
 
+![](images/paste-40.png){width="168"}
+
 ## 장비소개
+- Run multiple DNA/RNA sequencing experiments: 1 -5 flow cells
+- Long read: up to 250 Gb (72 hours at 420 bases/sec)
 
 
 

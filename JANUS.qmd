@@ -28,7 +28,7 @@ title: "JANUS: Liquid handler"
 
 ## 메뉴얼파일 위치
 
--   share:\\19_Equipment\Biofoundry\바이오파운드리_장비_user's_guide
+-   share:\\19_Equipment\Biofoundry\바이오파운드리\_장비_user's_guide
 
 ## Labware
 

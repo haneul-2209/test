@@ -2,13 +2,28 @@
 title: "Echo525: Nanoliter dispensor"
 ---
 
+![](images/paste-42.png){width="141"}
+
+![](images/paste-52.png){width="270"}
+
 ## 장비소개
 
+-   Acoustic liquid dispenser
 
+-   Average 300 drops/sec
+
+-   For aqueous-based acoustic transfers
+
+-   25 nL drop volume, \<8% CV
+
+-   96 well plate/384 well plate/1536 well plate
+
+-   Flexible and Reliable Transfer of Genomic Reagents
+
+-   Application:
+
+    -   PCR and qPCR reagents, synthetic biology reagents, NGS reagents, primers and probes, cell culture media, proteins, nucleic acids, up to 50 % glycerol, serum, plasma, and antibodies
 
 ## 메뉴얼 파일 위치
 
-
-
 ## 사용법
-

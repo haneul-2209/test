@@ -2,13 +2,42 @@
 title: "5400 Fragment analyzer"
 ---
 
+![](images/paste-43.png){width="166"}
+
 ## 장비소개
 
+-   96-capillary arrays
 
+-   Running time:
+
+    -   ds930 Kit(75 bp - 20,000 bp): 96 samples in 1 hours (spec. 2,400 samples in 24 hours )
+
+    -   ds920 Kit(75 bp - 15,000 bp): 96 samples in 75 min
+
+-   High-resolution separation: 2% accuracy
+
+-   Broad assay portfolio
+
+    -   gDNA, NGS libraries, DNA fragments, total RNA, small RNA mRNA vaccines
 
 ## 메뉴얼 파일 위치
 
-
-
 ## 사용법
 
+-   장비 보증기간: 1년
+
+-    Capillary 보증기간: 90일, 소모품이며 사용량에 따라 1-2년 사용 가능, 96 ea 가 일괄 교체로 진행 됨
+
+-   분석하고자하는 sample에 따라 Kit 가 다름 (유효기간 4-6개월)
+
+-   분해능이 떨어질 경우 0.5 N NaOH로 세척 (농도가 높을 경우 열이 발생될 수 있으므로 사용농도 주의)
+
+-   waste tray (1 well plate): 세척하여 사용 가능
+
+-   Inlet buffer tray (96 deep well plate, 1 ml): 1x로 희석하여 사용하며 1주일 주기로 교체 권장하나 사용량에 따라 다름
+
+-   Storage buffer: 180 ul, 1달에 1회 교체 권장
+
+-   Conditioning buffer (5X): 1x로 희석하여 사용, gel 과 동일 볼륨
+
+-   DW: HPLC grade로 사용 권장

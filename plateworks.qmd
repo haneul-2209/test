@@ -6,4 +6,10 @@ title: "plateworks: "
 
 -   스케쥴링 프로그램으로 full automation을 진행하기 위해서는 plateworks를 이용한 메소드 설정이 필요함
 
--
+## 연계장비
+
+-   ![](images/paste-44.png){width="188"}![](images/paste-47.png){width="147"}![](images/paste-48.png){width="186"}
+
+## 장비위치
+
+![](images/paste-56.png){width="658"}

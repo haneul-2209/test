@@ -1,8 +1,30 @@
+2
+
 ---
 title: "Zephyr: 96-channel Liquid handler"
 ---
 
+![](images/paste-32.png){width="154"}
+
 ## 장비소개
+
+-   Automated NGS Library preparation system
+
+-   96-channel pipettes: 1-200 uL
+
+-   1-5 uL volume: \<5% CV
+
+-   5-200 uL: \<2% CV
+
+-   4-70 ℃ thermal heater and shaker
+
+-   Magnetic plate for DNA purification with magnetic bead
+
+-   96 well plate/384 well plate
+
+## 장비위치
+
+![](images/paste-34.png){width="604"}
 
 ## 메뉴얼 파일 위치
 
