@@ -1,0 +1,21 @@
+Program:;P02.05.24_15:29:47
+
+Program name:;PCA2
+Program number:;01
+Program directory:;ADM
+Program runtime:;0h 35m 24s
+Heated lid:;On
+Lid temperature:;105 °C
+Preheat lid:;On
+Heating and cooling rate:;Different
+
+Step(9);Temp [°C];Time [H:MM:SS];Goto;Cycles;dT [°C];dt [s];dR [°C/s]
+01;98.0;00:00:10;-;-;-;-;8.0;Default
+02;98.0;00:00:10;-;-;-;-;8.0;Default
+03;55.0;00:00:30;-;-;-;-;0.2;Default
+04;68.0;00:00:10;02;10;-;-;8.0;Default
+05;98.0;00:00:10;-;-;-;-;8.0;Default
+06;55.0;00:00:30;-;-;-;-;0.2;Default
+07;68.0;00:00:20;05;10;-;-;8.0;Default
+08;68.0;00:03:00;-;-;-;-;8.0;Default
+09;4.0;Infinite;-;-;-;-;8.0;Default

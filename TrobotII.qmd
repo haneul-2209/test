@@ -25,3 +25,81 @@ title: "TrobotII: Thermal cycler"
 ## 메뉴얼 파일 위치
 
 ## 사용법
+
+![](images/paste-TrobotII-1.png)
+
+### Program Overview
+
+![](images/paste-TrobotII-2.png)
+
+### Programs setting
+
+#### Offline
+
+![](images/paste-TrobotII-3.png)
+
+#### Login
+
+![](images/paste-TrobotII-4.png)
+
+-   Table
+
+-   ![](images/paste-TrobotII-5.png)
+
+-   GRAPH
+
+![](images/paste-TrobotII-6.png)
+
+-   Edit
+
+-   ![](images/paste-TrobotII-7.png)
+
+-   Login:: Homescreen
+
+![](images/paste-TrobotII-8.png)
+
+### Run
+
+![](images/paste-TrobotII-12.png)
+
+![](images/paste-TrobotII-13.png)
+
+![](images/paste-TrobotII-14.png)
+
+![](images/paste-TrobotII-16.png)
+
+-   Temp. 4
+
+![](images/paste-TrobotII-17.png)
+
+-   OPEN
+
+![](images/paste-TrobotII-18.png)
+
+![](images/paste-TrobotII-19.png)
+
+-   STOP
+
+-   ![](images/paste-TrobotII-20.png)
+
+-   ![](images/paste-TrobotII-21.png)
+
+-   Monitoring
+
+![](images/paste-TrobotII-15.png)
+
+### Setting
+
+-   General/network
+
+![](images/paste-TrobotII-9.png)
+
+-   Block notifications
+
+![](images/paste-TrobotII-10.png)
+
+### Documentation
+
+#### Run Logfiles
+
+![](images/paste-TrobotII-11.png)

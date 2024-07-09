@@ -54,13 +54,25 @@ title: "Zephyr: 96-channel Liquid handler"
 
 #### 준비물
 
--   시작물질: PCR 반응액
+-   시작물질: 96 well PCR plate에 담긴 PCR 반응액
 
--   
+-   96-well storplate - 3 ea
+
+-   96-well PCR plate - 3 ea
+
+-   Lid cover - 1 ea
+
+-   96-deep well 2 ml - 1 ea (re-use)
+
+-   Zephyr 200 ul Filter tip - 2 rack
+
+#### Labware Location
+
+![](images/paste-59.png){width="668"}
 
 #### 프로토콜
 
--   Purification1
+-   Purification1: running time 46 min ± 2 min
 
 ### E. coli Transformation
 
