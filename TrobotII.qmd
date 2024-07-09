@@ -24,6 +24,8 @@ title: "TrobotII: Thermal cycler"
 
 ## 메뉴얼 파일 위치
 
+share\\:\\19_Equipment\Biofoundry\바이오파운드리\_장비_user's_guide\analytikjena TRobot PCR machine
+
 ## 사용법
 
 ![](images/paste-TrobotII-1.png)
