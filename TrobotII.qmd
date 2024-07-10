@@ -8,7 +8,7 @@ title: "TrobotII: Thermal cycler"
 
 -   로봇암과 연계된 thermal cycle
 
--   96 well block x 4 (0.2 ml tubes, 96 well microplates, 8 well strips)
+-   96 well block x 4 (0.2 ml tubes, 96 well microplates, 8 well strips)햣 ㅁ
 
 -   Silver block with gold coating
 
@@ -20,13 +20,45 @@ title: "TrobotII: Thermal cycler"
 
 ## 장비위치
 
-![](images/paste-29.png){width="604"}
+## ![](images/paste-82.png){width="388"}
 
 ## 메뉴얼 파일 위치
 
 share\\:\\19_Equipment\Biofoundry\바이오파운드리\_장비_user's_guide\analytikjena TRobot PCR machine
 
 ## 사용법
+
+### 사용 시 주의사항
+
+-   PCR 실험을 할 때, 4℃, ∞ 로 store 기능을 사용하는 경우가 많은데 'STOP'을 누르지 않고 'OPEN'만 하여 plate/tube를 회수하게 되면 온도차에 의해 block에 물이 고이게됨.
+
+-   ![](images/paste-76.png){width="214"}
+
+### PCR tube
+
+-   0.2 ml PCR 8-Tube Strips (Bioneer, Cat. No. T1C-028-N): dome type cap으로 뚜껑 결합 시 높이 23 mm 로 뚜껑이
+
+-   ![](images/paste-77.png){width="546"}
+
+-   Tube를 사용한 적은 샘플 이용 시 뚜껑을 닫는 압력에 의해 tube가 찌그러질 수 있고 장비에 무리를 줄 수 있음. 아래 그림처럼 압력을 고르게 받을 수 있도록 배치하여 사용.
+
+-   ![](images/paste-80.png)
+
+### PCR plate
+
+-   96 well PCR plate (Bio-Rad, Cat. No. HSP9601, MRO): low-profile 로 높이 16 mm, 사용 가능
+
+-   ![](images/paste-78.png)
+
+-   twin.tec PCR plate 96, skirted (Eppendorf, Cat. No. 0030128648)
+
+-   ![](images/paste-79.png){width="555"}
+
+### Colored block symbol
+
+![](images/paste-81.png)
+
+### Run 프로그램
 
 ![](images/paste-TrobotII-1.png)
 
@@ -36,19 +68,25 @@ share\\:\\19_Equipment\Biofoundry\바이오파운드리\_장비_user's_guide\ana
 
 ### Programs setting
 
-#### Offline
+-   장비 로그인 없이 offline에서 설정 후 COPY-PASTE를 통해 옮길 수 있음
+
+#### Offline location
 
 ![](images/paste-TrobotII-3.png)
 
 #### Login
 
+-   공용아이디는 ADM-Admin 으로 사용하며 USER 설정을 통해 개인 프로토콜 관리도 가능함
+
 ![](images/paste-TrobotII-4.png)
 
--   Table
+### Protocol setting
+
+-   Table mode
 
 -   ![](images/paste-TrobotII-5.png)
 
--   GRAPH
+-   GRAPH mode
 
 ![](images/paste-TrobotII-6.png)
 
@@ -56,11 +94,29 @@ share\\:\\19_Equipment\Biofoundry\바이오파운드리\_장비_user's_guide\ana
 
 -   ![](images/paste-TrobotII-7.png)
 
+    -   Step type: 자주 쓰는 양식에 대한 예시 선택 가능, blank 선택 후 add해서 설정 가능함.
+
+    -   Temperature : block 설정온도
+
+    -   ΔT: touch town PCR 과 같이 cycle이 증가할 때마다 온도 조건을 바꿔서 실험할 때 사용하는 값
+
+    -   Hold time: Temperature에서 설정한 온도에 도달 후 지속되는 시간
+
+    -   Δt: cycle이 증가할 때마다 hold time이 길어지게 설정할 수 있음
+
+    -   ΔR: ramping rate, 다음 스텝의 온도까지 변화할 때의 속도를 조정할 수 있음.
+
+    -   Goto: 반복하고자하는 스텝이 있을 경우 사용
+
+    -   Clycles: 반복하는 횟수
+
 -   Login:: Homescreen
 
 ![](images/paste-TrobotII-8.png)
 
 ### Run
+
+-   장비 선택 - 프로그램 선택 - START - CLOSE LID
 
 ![](images/paste-TrobotII-12.png)
 
@@ -68,9 +124,11 @@ share\\:\\19_Equipment\Biofoundry\바이오파운드리\_장비_user's_guide\ana
 
 ![](images/paste-TrobotII-14.png)
 
+-   반응 진행 시 block 색깔이 주황색으로 바뀜
+
 ![](images/paste-TrobotII-16.png)
 
--   Temp. 4
+-   Temp. 4℃: block 표시가 파란색으로 바뀜
 
 ![](images/paste-TrobotII-17.png)
 
@@ -80,13 +138,18 @@ share\\:\\19_Equipment\Biofoundry\바이오파운드리\_장비_user's_guide\ana
 
 ![](images/paste-TrobotII-19.png)
 
--   STOP
+-   STOP: PCR 종료 후 'STOP'을 꼭 눌러주세요
 
 -   ![](images/paste-TrobotII-20.png)
 
+-   프로그램이 종료된 후에는 MONITOR 창의 BLOCK 가 활성화되지 않음.
+
+```{=html}
+<!-- -->
+```
 -   ![](images/paste-TrobotII-21.png)
 
--   Monitoring
+-   MONITOR
 
 ![](images/paste-TrobotII-15.png)
 
