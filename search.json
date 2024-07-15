@@ -109,35 +109,28 @@
     "href": "TrobotII.html#장비소개",
     "title": "5  TrobotII: Thermal cycler",
     "section": "5.1 장비소개",
-    "text": "5.1 장비소개\n\n로봇암과 연계된 thermal cycle\n96 well block x 4 (0.2 ml tubes, 96 well microplates, 8 well strips)햣 ㅁ\nSilver block with gold coating\nProposed sample volume: 5- 100 uL\nMaximum heating: 5.0 ℃/s\nAverage heating: 4.9 ℃/s"
+    "text": "5.1 장비소개\n\n로봇암과 연계된 thermal cycle\n96 well block x 4 (0.2 ml tubes, 96 well microplates, 8 well strips)\nSilver block with gold coating\nProposed sample volume: 5- 100 uL\nMaximum heating: 5.0 ℃/s\nAverage heating: 4.9 ℃/s"
   },
   {
     "objectID": "TrobotII.html#장비위치",
     "href": "TrobotII.html#장비위치",
     "title": "5  TrobotII: Thermal cycler",
     "section": "5.2 장비위치",
-    "text": "5.2 장비위치"
-  },
-  {
-    "objectID": "TrobotII.html#section",
-    "href": "TrobotII.html#section",
-    "title": "5  TrobotII: Thermal cycler",
-    "section": "5.3 ",
-    "text": "5.3"
+    "text": "5.2 장비위치\n![](images/paste-82.png){width=\"388\"}"
   },
   {
     "objectID": "TrobotII.html#메뉴얼-파일-위치",
     "href": "TrobotII.html#메뉴얼-파일-위치",
     "title": "5  TrobotII: Thermal cycler",
-    "section": "5.4 메뉴얼 파일 위치",
-    "text": "5.4 메뉴얼 파일 위치\nshare\\:\\19_Equipment_장비_user’s_guideTRobot PCR machine"
+    "section": "5.3 메뉴얼 파일 위치",
+    "text": "5.3 메뉴얼 파일 위치\nshare\\:\\19_Equipment_장비_user’s_guideTRobot PCR machine"
   },
   {
     "objectID": "TrobotII.html#사용법",
     "href": "TrobotII.html#사용법",
     "title": "5  TrobotII: Thermal cycler",
-    "section": "5.5 사용법",
-    "text": "5.5 사용법\n\n5.5.1 사용 시 주의사항\n\nPCR 실험을 할 때, 4℃, ∞ 로 store 기능을 사용하는 경우가 많은데 ’STOP’을 누르지 않고 ’OPEN’만 하여 plate/tube를 회수하게 되면 온도차에 의해 block에 물이 고이게됨.\n\n\n\n\n5.5.2 PCR tube\n\n0.2 ml PCR 8-Tube Strips (Bioneer, Cat. No. T1C-028-N): dome type cap으로 뚜껑 결합 시 높이 23 mm 로 뚜껑이\n\nTube를 사용한 적은 샘플 이용 시 뚜껑을 닫는 압력에 의해 tube가 찌그러질 수 있고 장비에 무리를 줄 수 있음. 아래 그림처럼 압력을 고르게 받을 수 있도록 배치하여 사용.\n\n\n\n\n5.5.3 PCR plate\n\n96 well PCR plate (Bio-Rad, Cat. No. HSP9601, MRO): low-profile 로 높이 16 mm, 사용 가능\n\ntwin.tec PCR plate 96, skirted (Eppendorf, Cat. No. 0030128648)\n\n\n\n\n5.5.4 Colored block symbol\n\n\n\n5.5.5 Run 프로그램\n\n\n\n5.5.6 Program Overview\n\n\n\n5.5.7 Programs setting\n\n장비 로그인 없이 offline에서 설정 후 COPY-PASTE를 통해 옮길 수 있음\n\n\n5.5.7.1 Offline location\n\n\n\n5.5.7.2 Login\n\n공용아이디는 ADM-Admin 으로 사용하며 USER 설정을 통해 개인 프로토콜 관리도 가능함\n\n\n\n\n\n5.5.8 Protocol setting\n\nTable mode\n\nGRAPH mode\n\n\n\nEdit\n\n\nStep type: 자주 쓰는 양식에 대한 예시 선택 가능, blank 선택 후 add해서 설정 가능함.\nTemperature : block 설정온도\nΔT: touch town PCR 과 같이 cycle이 증가할 때마다 온도 조건을 바꿔서 실험할 때 사용하는 값\nHold time: Temperature에서 설정한 온도에 도달 후 지속되는 시간\nΔt: cycle이 증가할 때마다 hold time이 길어지게 설정할 수 있음\nΔR: ramping rate, 다음 스텝의 온도까지 변화할 때의 속도를 조정할 수 있음.\nGoto: 반복하고자하는 스텝이 있을 경우 사용\nClycles: 반복하는 횟수\n\nLogin:: Homescreen\n\n\n\n\n5.5.9 Run\n\n장비 선택 - 프로그램 선택 - START - CLOSE LID\n\n\n\n\n\n반응 진행 시 block 색깔이 주황색으로 바뀜\n\n\n\nTemp. 4℃: block 표시가 파란색으로 바뀜\n\n\n\nOPEN\n\n\n\n\nSTOP: PCR 종료 후 ’STOP’을 꼭 눌러주세요\n\n프로그램이 종료된 후에는 MONITOR 창의 BLOCK 가 활성화되지 않음.\n\n\n\n\nMONITOR\n\n\n\n\n5.5.10 Setting\n\nGeneral/network\n\n\n\nBlock notifications\n\n\n\n\n5.5.11 Documentation\n\n5.5.11.1 Run Logfiles"
+    "section": "5.4 사용법",
+    "text": "5.4 사용법\n\n5.4.1 사용 시 주의사항\n\nPCR 실험을 할 때, 4℃, ∞ 로 store 기능을 사용하는 경우가 많은데 ’STOP’을 누르지 않고 ’OPEN’만 하여 plate/tube를 회수하게 되면 온도차에 의해 block에 물이 고이게됨.\n\n\n\n\n5.4.2 PCR tube\n\n0.2 ml PCR 8-Tube Strips (Bioneer, Cat. No. T1C-028-N): dome type cap, tube와 cap 결합 시 높이 23 mm로 사용 가능\n\nTube를 사용한 적은 샘플 이용 시 뚜껑을 닫는 압력에 의해 tube가 찌그러질 수 있고 장비에 무리를 줄 수 있음. 아래 그림처럼 압력을 고르게 받을 수 있도록 배치하여 사용.\n\n\n\n\n5.4.3 PCR plate\n\n96 well PCR plate (Bio-Rad, Cat. No. HSP9601, MRO): low-profile 로 높이 16 mm, 사용 가능\n\ntwin.tec PCR plate 96, skirted (Eppendorf, Cat. No. 0030128648), 사용 가능\n\n\n\n\n5.4.4 Colored block symbol\n\n\n\n5.4.5 Run 프로그램\n\n\n\n5.4.6 Program Overview\n\n\n\n5.4.7 Programs setting\n\n장비 로그인 없이 offline에서 설정 후 COPY-PASTE를 통해 옮길 수 있음\n\n\n5.4.7.1 Offline location\n\n\n\n5.4.7.2 Login\n\n공용아이디는 ADM-Admin 으로 사용하며 USER 설정을 통해 개인 프로토콜 관리도 가능함\n\n\n\n\n\n5.4.8 Protocol setting\n\nTable mode\n\nGRAPH mode\n\n\n\nEdit\n\n\nStep type: 자주 쓰는 양식에 대한 예시 선택 가능, blank 선택 후 add해서 설정 가능함.\nTemperature : block 설정온도\nΔT: touch town PCR 과 같이 cycle이 증가할 때마다 온도 조건을 바꿔서 실험할 때 사용하는 값\nHold time: Temperature에서 설정한 온도에 도달 후 지속되는 시간\nΔt: cycle이 증가할 때마다 hold time이 길어지게 설정할 수 있음\nΔR: ramping rate, 다음 스텝의 온도까지 변화할 때의 속도를 조정할 수 있음.\nGoto: 반복하고자하는 스텝이 있을 경우 사용\nClycles: 반복하는 횟수\n\nLogin:: Homescreen\n\n\n\n\n5.4.9 Run\n\n장비 선택 - 프로그램 선택 - START - CLOSE LID\n\n\n\n\n\n반응 진행 시 block 색깔이 주황색으로 바뀜\n\n\n\nTemp. 4℃: block 표시가 파란색으로 바뀜\n\n\n\nOPEN\n\n\n\n\nSTOP: PCR 종료 후 ’STOP’을 꼭 눌러주세요\n\n프로그램이 종료된 후에는 MONITOR 창의 BLOCK 가 활성화되지 않음.\n\n\n\n\nMONITOR\n\n\n\n\n5.4.10 Setting\n\nGeneral/network\n\n\n\nBlock notifications\n\n\n\n\n5.4.11 Documentation\n\n5.4.11.1 Run Logfiles"
   },
   {
     "objectID": "5400_Fragment_analyzer.html#장비소개",
