@@ -8,7 +8,7 @@ title: "TrobotII: Thermal cycler"
 
 -   로봇암과 연계된 thermal cycle
 
--   96 well block x 4 (0.2 ml tubes, 96 well microplates, 8 well strips)햣 ㅁ
+-   96 well block x 4 (0.2 ml tubes, 96 well microplates, 8 well strips)
 
 -   Silver block with gold coating
 
@@ -20,7 +20,9 @@ title: "TrobotII: Thermal cycler"
 
 ## 장비위치
 
-## ![](images/paste-82.png){width="388"}
+```         
+![](images/paste-82.png){width="388"}
+```
 
 ## 메뉴얼 파일 위치
 
@@ -36,9 +38,9 @@ share\\:\\19_Equipment\Biofoundry\바이오파운드리\_장비_user's_guide\ana
 
 ### PCR tube
 
--   0.2 ml PCR 8-Tube Strips (Bioneer, Cat. No. T1C-028-N): dome type cap으로 뚜껑 결합 시 높이 23 mm 로 뚜껑이
+-   0.2 ml PCR 8-Tube Strips (Bioneer, Cat. No. T1C-028-N): dome type cap, tube와 cap 결합 시 높이 23 mm로 사용 가능
 
--   ![](images/paste-77.png){width="546"}
+-   ![](images/paste-77.png){width="454"}
 
 -   Tube를 사용한 적은 샘플 이용 시 뚜껑을 닫는 압력에 의해 tube가 찌그러질 수 있고 장비에 무리를 줄 수 있음. 아래 그림처럼 압력을 고르게 받을 수 있도록 배치하여 사용.
 
@@ -50,7 +52,7 @@ share\\:\\19_Equipment\Biofoundry\바이오파운드리\_장비_user's_guide\ana
 
 -   ![](images/paste-78.png)
 
--   twin.tec PCR plate 96, skirted (Eppendorf, Cat. No. 0030128648)
+-   twin.tec PCR plate 96, skirted (Eppendorf, Cat. No. 0030128648), 사용 가능
 
 -   ![](images/paste-79.png){width="555"}
 
@@ -144,9 +146,8 @@ share\\:\\19_Equipment\Biofoundry\바이오파운드리\_장비_user's_guide\ana
 
 -   프로그램이 종료된 후에는 MONITOR 창의 BLOCK 가 활성화되지 않음.
 
-```{=html}
 <!-- -->
-```
+
 -   ![](images/paste-TrobotII-21.png)
 
 -   MONITOR
