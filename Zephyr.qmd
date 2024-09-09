@@ -1,10 +1,8 @@
-2
-
 ---
-title: "Zephyr: 96-channel Liquid handler"
+title: "96 channel Liquid handing"
 ---
 
-![](images/paste-32.png){width="154"}
+## ![](images/paste-83.png){width="211"}
 
 ## 장비소개
 
@@ -67,6 +65,26 @@ share:\\19_Equipment\Biofoundry\바이오파운드리\_장비_user's_guide\Zephy
 -   96-deep well 2 ml - 1 ea (re-use)
 
 -   Zephyr 200 ul Filter tip - 2 rack
+
+#### 실험비용
+
+-   키트 + 세팅비 = 96 rxn 기준, 151,087 원
+
+|                                          | 1 rxn | 96 rxn |  cost   |
+|------------------------------------------|:-----:|:------:|:-------:|
+| MagListo™ PCR/Gel Purification Kit       | 1 ea  |  1 ea  | 72,600  |
+| Hard-Shell PCR plate-96, full skirt      | 3 ea  |  3 ea  |  6,248  |
+| StorPlate-96 V, 450 μL/well, 96-well /50 | 3 ea  |  3 ea  |  8,646  |
+| Zephyr 200                               | 2 ea  | 192 ea | 40,700  |
+|                                          |       |        | 128,194 |
+
+|                                      |          |       |        |
+|--------------------------------------|:--------:|:-----:|:------:|
+|                                      | 사용개수 | 단가  |  비용  |
+| 25ml Disposable Reservoirs, Sterile  |    3     |  972  | 2,917  |
+| 100ml Disposable Reservoirs, Sterile |    2     |  972  | 1,945  |
+| 1250 ul, INTEGRA                     |    40    | 54.78 | 2,191  |
+|                                      |          |       | 22,893 |
 
 #### Labware Location
 

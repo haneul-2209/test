@@ -1,10 +1,10 @@
 ---
-title: "Echo525: Nanoliter dispensor"
+title: "Nanoliter liquid handling"
 ---
 
 ![](images/paste-42.png){width="141"}
 
-![](images/paste-52.png){width="270"}
+![](images/paste-51.png){width="270"}
 
 ## 장비소개
 

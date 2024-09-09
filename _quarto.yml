@@ -15,8 +15,9 @@ book:
   chapters:
     - index.qmd   
     - plateworks.qmd
-    - JANUS.qmd
+    - Liquid_Handler.qmd
     - Zephyr.qmd
+    - Echo525.qmd
     - TrobotII.qmd
     - 5400_Fragment_analyzer.qmd
     - OT-2.qmd

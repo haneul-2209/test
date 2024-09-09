@@ -5,10 +5,15 @@ title: "plateworks: "
 ## 소개
 
 -   스케쥴링 프로그램으로 full automation을 진행하기 위해서는 plateworks를 이용한 메소드 설정이 필요함
+-   plateworks를 이용하기 위한 methods 설정 시 각각의 장비(유닛프로세스)는 미리 설정이 되어 있어야함.
+-   각 유닛프로세스의 작동 시간에 대한 확인이 필요
+-   
 
 ## 연계장비
 
--   ![](images/paste-44.png){width="188"}![](images/paste-47.png){width="147"}![](images/paste-48.png){width="186"}
+-   ![](images/paste-44.png){width="188"}![](images/paste-47.png){width="147"}![](images/paste-46.png){width="186"}
+
+![](images/paste-94.png){width="569"}
 
 ## 장비위치
 
