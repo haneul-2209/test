@@ -1,5 +1,5 @@
 ---
-title: "96 channel Liquid handing"
+title: "96 channel Liquid handler"
 ---
 
 ## ![](images/paste-83.png){width="211"}

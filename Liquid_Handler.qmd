@@ -1,7 +1,7 @@
 ---
-title: "Liquid handing"
+title: "Liquid handling"
 ---
-
+ 
 
 
 ## 장비1: JANUS
@@ -15,11 +15,17 @@ title: "Liquid handing"
 
     -   5 ul volume: \<2% CV
 
--   Unit process: Liquid transfer - PCA mix, PCR mix, Gibson mix, Yeast TF mix, Enzyme, broth, cell spotting
+-   Unit process: Liquid transfer
+    -   PCA & PCR mix
+    -   Gibson assembly mix
+    -   Yeast Transformation mix
+    -   Enzyme reaction mix
+    -   Enzyme assay mix
+    -   cell spotting
 
 -   다양한 labware의 사용이 가능하여 자유도가 높은 liquid handler 입니다.
 
--   Automatic stacker가 부착되어 있어 최대 10 rack의 tip 사용이 가능합니다.
+-   Automatic stacker가 부착되어 있어 최대 10 개의 tip rack 사용이 가능합니다.
 
     -   Stacker에 사용 가능한 labware: 25 ul/175 ul tip rack
 
