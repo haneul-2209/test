@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>자동화 장비 정보 사이트 - 10&nbsp; Flow cytometry</title>
+<title>자동화 장비 정보 사이트 - 11&nbsp; Next Generation Sequencing</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./NGS.html" rel="next">
-<link href="./SPARK.html" rel="prev">
+<link href="./FACSAria.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Flow cytometry</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Next Generation Sequencing</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -148,12 +147,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./FACSAria.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Flow cytometry</span></a>
+  <a href="./FACSAria.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Flow cytometry</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./NGS.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Next Generation Sequencing</span></a>
+  <a href="./NGS.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Next Generation Sequencing</span></a>
   </div>
 </li>
     </ul>
@@ -165,9 +164,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#장비소개" id="toc-장비소개" class="nav-link active" data-scroll-target="#장비소개"><span class="toc-section-number">10.1</span>  장비소개</a></li>
-  <li><a href="#메뉴얼-파일-위치" id="toc-메뉴얼-파일-위치" class="nav-link" data-scroll-target="#메뉴얼-파일-위치"><span class="toc-section-number">10.2</span>  메뉴얼 파일 위치</a></li>
-  <li><a href="#사용법" id="toc-사용법" class="nav-link" data-scroll-target="#사용법"><span class="toc-section-number">10.3</span>  사용법</a></li>
+  <li><a href="#장비1-gridion" id="toc-장비1-gridion" class="nav-link active" data-scroll-target="#장비1-gridion"><span class="toc-section-number">12</span>  장비1: GridION</a>
+  <ul class="collapse">
+  <li><a href="#장비소개" id="toc-장비소개" class="nav-link" data-scroll-target="#장비소개"><span class="toc-section-number">12.1</span>  장비소개</a></li>
+  <li><a href="#장비위치" id="toc-장비위치" class="nav-link" data-scroll-target="#장비위치"><span class="toc-section-number">12.2</span>  장비위치</a></li>
+  <li><a href="#메뉴얼-파일-위치" id="toc-메뉴얼-파일-위치" class="nav-link" data-scroll-target="#메뉴얼-파일-위치"><span class="toc-section-number">12.3</span>  메뉴얼 파일 위치</a></li>
+  <li><a href="#사용법" id="toc-사용법" class="nav-link" data-scroll-target="#사용법"><span class="toc-section-number">12.4</span>  사용법</a></li>
+  </ul></li>
+  <li><a href="#장비2-iseq100" id="toc-장비2-iseq100" class="nav-link" data-scroll-target="#장비2-iseq100"><span class="toc-section-number">13</span>  장비2: iSeq100</a>
+  <ul class="collapse">
+  <li><a href="#장비소개-iseq100" id="toc-장비소개-iseq100" class="nav-link" data-scroll-target="#장비소개-iseq100"><span class="toc-section-number">13.1</span>  장비소개: iSeq100</a></li>
+  <li><a href="#장비위치-1" id="toc-장비위치-1" class="nav-link" data-scroll-target="#장비위치-1"><span class="toc-section-number">13.2</span>  장비위치</a></li>
+  <li><a href="#메뉴얼-파일-위치-1" id="toc-메뉴얼-파일-위치-1" class="nav-link" data-scroll-target="#메뉴얼-파일-위치-1"><span class="toc-section-number">13.3</span>  메뉴얼 파일 위치</a></li>
+  <li><a href="#사용법-1" id="toc-사용법-1" class="nav-link" data-scroll-target="#사용법-1"><span class="toc-section-number">13.4</span>  사용법</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -176,7 +186,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Flow cytometry</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Next Generation Sequencing</span></h1>
 </div>
 
 
@@ -191,27 +201,49 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><img src="images/paste-41.png" class="img-fluid" width="189"></p>
-<section id="장비소개" class="level2" data-number="10.1">
-<h2 data-number="10.1" class="anchored" data-anchor-id="장비소개"><span class="header-section-number">10.1</span> 장비소개</h2>
+<section id="장비1-gridion" class="level1" data-number="12">
+<h1 data-number="12"><span class="header-section-number">12</span> 장비1: GridION</h1>
+<p><img src="images/paste-40.png" class="img-fluid" width="168"></p>
+<section id="장비소개" class="level2" data-number="12.1">
+<h2 data-number="12.1" class="anchored" data-anchor-id="장비소개"><span class="header-section-number">12.1</span> 장비소개</h2>
 <ul>
-<li>Automated high speed cytometry system</li>
-<li>Maximum sample acquisition: 100,000 cells per second</li>
-<li>Optimum sorting rate: 20,000 – 50,000 cells/sec (MAX. 70,000 cell/sec)</li>
-<li>Lasers : 488 nm blue laser (20 mW), 633 nm red laser (18 mW)</li>
-<li>Detector array : Octagon (FITC, PE, PE-Texas Red, PerCP, PE-Cy7), Trigon (APC, APC-Cy7)</li>
-<li>Nozzles : 70, 85 micron</li>
-<li>Sort collection devices : Two-way sorting (15 mL tubes), Four-way sorting (12x75 mm tubes), Plate sorting</li>
+<li>Run multiple DNA/RNA sequencing experiments: 1 -5 flow cells</li>
+<li>Long read: up to 250 Gb (72 hours at 420 bases/sec)</li>
 </ul>
 </section>
-<section id="메뉴얼-파일-위치" class="level2" data-number="10.2">
-<h2 data-number="10.2" class="anchored" data-anchor-id="메뉴얼-파일-위치"><span class="header-section-number">10.2</span> 메뉴얼 파일 위치</h2>
-<p>share:\19_Equipment_장비_user’s_guide</p>
+<section id="장비위치" class="level2" data-number="12.2">
+<h2 data-number="12.2" class="anchored" data-anchor-id="장비위치"><span class="header-section-number">12.2</span> 장비위치</h2>
 </section>
-<section id="사용법" class="level2" data-number="10.3">
-<h2 data-number="10.3" class="anchored" data-anchor-id="사용법"><span class="header-section-number">10.3</span> 사용법</h2>
+<section id="메뉴얼-파일-위치" class="level2" data-number="12.3">
+<h2 data-number="12.3" class="anchored" data-anchor-id="메뉴얼-파일-위치"><span class="header-section-number">12.3</span> 메뉴얼 파일 위치</h2>
+</section>
+<section id="사용법" class="level2" data-number="12.4">
+<h2 data-number="12.4" class="anchored" data-anchor-id="사용법"><span class="header-section-number">12.4</span> 사용법</h2>
+</section>
+</section>
+<section id="장비2-iseq100" class="level1" data-number="13">
+<h1 data-number="13"><span class="header-section-number">13</span> 장비2: iSeq100</h1>
+<p><img src="images/paste-36.png" class="img-fluid" width="95"></p>
+<section id="장비소개-iseq100" class="level2" data-number="13.1">
+<h2 data-number="13.1" class="anchored" data-anchor-id="장비소개-iseq100"><span class="header-section-number">13.1</span> 장비소개: iSeq100</h2>
+<ul>
+<li>Short read: max output 1.2 Gb (19 hours)</li>
+<li>Reads per run: 4 million</li>
+<li>Max read length: 2 x 150 bp</li>
+</ul>
+</section>
+<section id="장비위치-1" class="level2" data-number="13.2">
+<h2 data-number="13.2" class="anchored" data-anchor-id="장비위치-1"><span class="header-section-number">13.2</span> 장비위치</h2>
+</section>
+<section id="메뉴얼-파일-위치-1" class="level2" data-number="13.3">
+<h2 data-number="13.3" class="anchored" data-anchor-id="메뉴얼-파일-위치-1"><span class="header-section-number">13.3</span> 메뉴얼 파일 위치</h2>
+<p>share:\19_Equipment_장비_user’s_guide_illumina</p>
+</section>
+<section id="사용법-1" class="level2" data-number="13.4">
+<h2 data-number="13.4" class="anchored" data-anchor-id="사용법-1"><span class="header-section-number">13.4</span> 사용법</h2>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -350,14 +382,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./SPARK.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">SPARK</span></span>
+      <a href="./FACSAria.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Flow cytometry</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./NGS.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Next Generation Sequencing</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
