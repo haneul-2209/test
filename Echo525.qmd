@@ -2,11 +2,11 @@
 title: "Nanoliter liquid handler"
 ---
 
-## 장비: Echo525
+# 장비: Echo525
 
 ![](images/paste-42.png){width="141"}
 
-### 장비소개
+## 장비소개
 
 -   로봇암과 연계된 Nanoliter liquid handler
 
@@ -28,13 +28,13 @@ title: "Nanoliter liquid handler"
 
     -   PCR and qPCR reagents, synthetic biology reagents, NGS reagents, primers and probes, cell culture media, proteins, nucleic acids, up to 50 % glycerol, serum, plasma, and antibodies
 
-### 메뉴얼 파일 위치
+## 메뉴얼 파일 위치
 
 -   share:\\19_Equipment\Echo525
 
-### 사용법
+## 사용법
 
-#### 자주 묻는 질문들
+### 자주 묻는 질문들
 
 -   Q. 사용 가능한 labware는?
     -   Source Plate는 전용 plate만 사용 가능하며 dispensing plate 는 128.0 mm X 8.0 mm 의 hard-shell type 을 만족하면 well 수에 관계 없이 모두 가능합니다. (96 well, 384 well, 1536 well, black plate, PCR plate, assay plate 등등)
@@ -48,23 +48,23 @@ title: "Nanoliter liquid handler"
     -   음파를 이용한 전달 방식으로 tip과 같은 별도의 소모품이 필요하지 않습니다.
     -   Source plate와 Destination plate, reagent만 있으면 384개의 시료를 3분 내에 dispensing 할 수 있습니다.
 
-#### 실제구동예시
+### 실제구동예시
 
 ![](images/Echo1.png){width="302"}
 
 [![](http:img.youtube.com/vi/nzXvsp1-ch8/0.jpg)](https://youtu.be/nzXvsp1-ch8)
 
-#### 사용 전 체크사항
+### 사용 전 체크사항
 
-##### 1. 장비 준비사항
+#### 1. 장비 준비사항
 
 ![](images/paste-1.png)
 
-##### 2. 특별 주의사항
+#### 2. 특별 주의사항
 
 ![](images/paste-5.png)
 
-##### 3. 유지보수 항목
+#### 3. 유지보수 항목
 
 -   DW/Air line 관련 tubing 들은 소모품으로 분류되며 연 1회 교체를 권장하는 항목임. (
 
@@ -74,22 +74,22 @@ title: "Nanoliter liquid handler"
 
     -   교체 없이 먼지 제거로 해결 가능하며 평균적으로 연 1회 tubing 교체 시 체크되는 항목이나 특수 상황에 의해 먼지가 많은 경우 짧은 시간 내에 막힐 수 있음
 
-##### 4. Warning 상태알림
+#### 4. Warning 상태알림
 
 ![](images/paste-9.png)
 
 ![](images/paste-12.png)
 
-#### Source plate 준비
+### Source plate 준비
 
-##### 1. Liquid bubble 제거: Centrifuge (권장)
+#### 1. Liquid bubble 제거: Centrifuge (권장)
 
 -   Echo 사용 시 liquid를 넣어준 well에 bubble이 있을 경우 transfer error 발생. Plate centrifuge 를 통해 1) bubble 제거 및 2)well에 담긴 reagent 의 높이 평탄화 후 사용
 -   Centrifuge 조건: 1500xg, 3 min (2700 rpm, 3 min)
 
 ![](images/paste-13.png){width="713"}
 
-##### 2. Plate 정리: deionize
+#### 2. Plate 정리: deionize
 
 -   S/W를 통한 정리
 
@@ -99,11 +99,11 @@ title: "Nanoliter liquid handler"
 
 <https://youtube.com/shorts/iAME09zqxmY?feature=share>
 
-##### 3. Liquid volume check
+#### 3. Liquid volume check
 
 -   정확하진 않지만 well 에 담아져 있는 volume을 확인할 수 있음![](images/paste-45.png)
 
-##### 4. Transfer Calibration
+#### 4. Transfer Calibration
 
 -   사용하고자 하는 reagent에 따라 적용해야하는 source plate와 음파 값이 다를 수 있음
 
@@ -113,39 +113,39 @@ title: "Nanoliter liquid handler"
 
     -   ![](images/paste-49.png)
 
-#### Software 사용법 및 설정
+### Software 사용법 및 설정
 
-##### 1. 장비연결
+#### 1. 장비연결
 
 ![](images/paste-50.png)
 
-##### 2. Starting a New Protocol
+#### 2. Starting a New Protocol
 
 ![](images/paste-52.png)
 
-##### 3. Mapping
+#### 3. Mapping
 
 ![](images/paste-57.png)
 
-##### 4. Plate설정
+#### 4. Plate설정
 
 ![](images/paste-58.png)
 
-##### 5. Protocol setting
+#### 5. Protocol setting
 
 ![](images/paste-63.png)
 
-##### 6. Calibration Selection using 384PP (PPP-0200) Source Plate
+#### 6. Calibration Selection using 384PP (PPP-0200) Source Plate
 
 ![](images/paste-65.png)
 
-##### 7. Appendix
+#### 7. Appendix
 
 ![](images/paste-69.png)
 
 ![](images/paste-84.png)
 
-##### 8. Dispense Simulate
+#### 8. Dispense Simulate
 
 ![](images/paste-85.png)
 
@@ -153,11 +153,11 @@ title: "Nanoliter liquid handler"
 
 <https://youtu.be/OxIc0MoX4mA>
 
-#### Excel file을 이용한 mapping 방법
+### Excel file을 이용한 mapping 방법
 
 -   Source well과 Destination well을 엑셀파일로 작성해서 import 할 경우 더 빠르게 활용 가능
 
-##### Import Region Definitions (.csv 불러오기)
+#### Import Region Definitions (.csv 불러오기)
 
 ![](images/paste-89.png)
 
@@ -167,15 +167,15 @@ title: "Nanoliter liquid handler"
 
 ![](images/paste-93.png)
 
-#### Echo525 Labware
+### Echo525 Labware
 
 -   gripper 사용으로 인해 PP와 같이 딱딱한 경도의 plate만 사용 가능함
 
-##### 1. Source plate
+#### 1. Source plate
 
 ![](images/paste-96.png)
 
-##### 2. Destination Plate
+#### 2. Destination Plate
 
 ![](images/paste-97.png)
 
@@ -183,22 +183,22 @@ title: "Nanoliter liquid handler"
 
 ![](paste-Y_p5JSOMghEYE4tdo587Z){width="716"}
 
-##### 3. MicroClime Environmental Lids
+#### 3. MicroClime Environmental Lids
 
 -   Microplate well 사용 시 증발을 막아주는 lid
 
     ![](paste-2o1WNXFAhv6jshO213A94)
 
-#### Transfer Error Definitions
+### Transfer Error Definitions
 
-##### 1. Plate Loading
+#### 1. Plate Loading
 
 ![](paste-DU1jngTTmjlWudi_vO6sY)
 
-##### 2. Survery - Fluid Determination
+#### 2. Survery - Fluid Determination
 
 ![](paste-qG4j2vW57Y0UBVeXDJI8U)
 
-##### 3. Fluid Transfer
+#### 3. Fluid Transfer
 
 ![](paste-ntu6MryL-fnulAbCuNOXu)

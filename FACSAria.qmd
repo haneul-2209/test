@@ -1,5 +1,5 @@
 ---
-title: "FACSAriaII"
+title: "Flow cytometry"
 ---
 
 ![](images/paste-41.png){width="189"}
@@ -17,7 +17,7 @@ title: "FACSAriaII"
 
 ## 메뉴얼 파일 위치
 
-
+ share:\\19_Equipment\Biofoundry\바이오파운드리_장비_user's_guide
 
 ## 사용법
 

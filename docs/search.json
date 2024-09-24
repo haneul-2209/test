@@ -37,93 +37,79 @@
   {
     "objectID": "Liquid_Handler.html#장비1-janus",
     "href": "Liquid_Handler.html#장비1-janus",
-    "title": "3  Liquid handing",
+    "title": "3  Liquid handling",
     "section": "3.1 장비1: JANUS",
-    "text": "3.1 장비1: JANUS\n\n\n\n\n3.1.1 장비소개\n\nrevvity 사의 8-channel pipettes을 이용하는 liquid handler\n\n1 - 1000 ul 의 volume range\n5 ul volume: <2% CV\n\nUnit process: Liquid transfer - PCA mix, PCR mix, Gibson mix, Yeast TF mix, Enzyme, broth, cell spotting\n다양한 labware의 사용이 가능하여 자유도가 높은 liquid handler 입니다.\nAutomatic stacker가 부착되어 있어 최대 10 rack의 tip 사용이 가능합니다.\n\nStacker에 사용 가능한 labware: 25 ul/175 ul tip rack\n\n\n\n\n3.1.2 장비위치\n\nFully Automation_DNA workstation housing 내에 위치\n\n\n\n\n3.1.3 메뉴얼파일 위치\n\nshare:\\19_Equipment_장비_user’s_guide\n\n\n\n3.1.4 사용법\n\n3.1.4.1 사용가능한 Labware\n\n3.1.4.1.1 Support: 위치를 고정하는 Tile\n\nPlate-Adapter Support Tile\nPlate-Adapter Solid Med Support Tile: with Robotarm\nPlate Carrier\n\n\n\n3.1.4.1.2 Labware: Disposable Tips\n\n25ul Conductive Filter RoboRack Tips\n175ul Conductive Filter\n900ul Conductive Filter Tips\n\n\n\n3.1.4.1.3 Labware: plate, tube\n▶ 목록 외 labware 사용 시 ’Labware setting’을 통해 추가 가능함\n\n1 Well Plate\n108 well plate\n1536 well plate\n384 well plate\n\n384 square well: Nunc, Packard, Porvair, Costar\n384 well clear bottom: Biocoat, Costar, Falcon, Greiner, NUNC, Packard, PE ViewPlate,\n384 well clear bottom low volume: Greiner\n384 well filter plate: Whatman\n384 well flat bottom smal volume: Greiner\n384 well PCR plate: Costar, MJResearch, Polyfiltronics\n\n96 well plate\n\n96 Deep Well Filter Plate: 3M Empore, Ansys, Promega, Qiagen, Varian,\n96 Deep Well plate: BIONEER, perkinelmer-2ml, Beckman, Elkay, Axygen, Falcon-1ml, Mega, Polyfiltronics, Porvair, Qiagen, Seahorse, macrogen_oligo, Bioneer_oligo_plate\n96 Well Clear bottom: Biocoat, Costar, Falcon, Greiner, PE ViewPlate,\n96 well Filter Plate: Milapore, Packard, Whatman\n96 well flat bottom: Evergreen, NUNC, Porvair, Costar\n96 well PCR plate: BioRad, eppendorf, eppendorf_on_ice_rack, SSIBIO, SSIBIO_on_ice_rack\n96 well PCR rack: KRIBB, perkinelmer, 0.2ml_8-strips_tube\n96 well round: Costar, Corning, Falcon\nV-bottom plate: perkinelmer_V-bottom_Shortplate, Greiner\n\nBig well plate\n\n12 big well: Evergreen\n24 big well: Evergreen, Packard\n\nBioTx\nDrug Transport (Caco-2) Plates\nMicrofug\n\nKRIBB_24Pos_Tube\nKRIBB_2ml_Tube\n\nVials\n\n2ml_vial_32pos\n\n\n\n\n3.1.4.1.4 Labware: Reservoirs\n▶ Reagent 분주 시 reaction 수에 따라 적정 용량의 reservoir 를 사용하면 protocol 시간을 단축할 수 있습니다.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReservoir\n2 trough+ 2 trough\n24 well (deep)\n48 well\nWashbowl + 1 trough\nWashbowl + 2 trough\n4 well\n8 row\n12 column\n12 column (low profile)\n1 well\n\n\n\n\nWell\n4\n24\n48\n1\n2\n4\n8\n12\n12\n1\n\n\nvolume\n60 ml\n10 ml\n5 ml/7.5 ml\n\n\n73 ml\n\n21 ml\n\n287 ml\n\n\nPart no.\n\nN07777236\nN0777237 ,N0777238\n\n\n600 8710\n\n600 8700\n\n600 8730\n\n\n\n\n\n\n\n\n\n\n\n\n3.1.4.2 프로토콜 만들기\n\n3.1.4.2.1 Labware setting\n\n목록에 없는 새로운 labware를 사용하거나 기존 세팅 값이 맞지 않을 경우 진행\nQ. Labware parameter\n\nParameter window 에서 Support: Plate-Adapter support Tile(기본) 체크\n8-channel pipet의 간격이 9.0 mm로 well 간격이 9.0 mm 이하로 설정되면 1 channel씩 움직이게 되어 시간이 오래 소요될 수 있음.\n\n\n\nFirst well, first column: X,Y 축 위치 조정\nLast well, last column: X,Y 축 위치 조정\nZ축을 labware 위쪽으로 약 5 cm 올린 뒤 tip 하나 손으로 꽂아서 Z 축 내려가며 bottom 위치 측정\n\nstep size 0.7 로 조정하면 천천히, 힘이 과하게 강해질 경우 motor가 고장 날 수 있음.\n바닥에 닿으면 UP 두 번 올려서 Z 축 value 확인\n\nZ value – 39.8 (Tip 길이) = 수치 확인, Detail tap의 well bottom에 기입\n\nTip을 사용하지 않았을 경우 Z value 그대로 적용\n8개의 tip adapter 녹색 봉의 휘어짐 정도가 다름, Tip을 사용한 well bottom 측정이 좀 더 정확함\n\nTip 제거 후 녹색 봉이 labware 상단에서 X축 이동하는데 방해되지 않는 높이로 측정\n\nTop of well, search height 값도 동일하게 업데이트\n\n\n\n\n\n\nFirst well, first column 선택, Tip은 보통 2번을 사용\nGo to 를 눌러 A1으로 위치\n녹색 봉이 well 중앙에 위치할 수 있도록 X/Y Motors 를 조정 (중앙 확인이 어려울 경우 Z Motor를 내려서 (Down) 조정\nX/Y Motors 조정 시 Step size는 0.1 mm 권장\nWell 중앙에 위치했다면 Z Motor: Up을 이용해 plate에서 약 5 cm 정도 위로 올려줌\nTip을 하나 손으로 끼운 후 Step size는 0.7 mm로 Z Motor를 내려가며 바닥을 확인\n바닥에 닿으면 위로 두 번 올린 후 Z 수치에서 39.8을 뺀 값을 Detail tap의 well bottom에 기입→ Well bottom도 자동 업데이트됨\nTop of well 선택, Z Motor를 위로 올려 Tip을 제거, 녹색 봉이 plate 상단에서 X/Y로 움직일 수 있을 정도로 수치 조정 후 Update Z for all wells 체크, Update 실행, Search height 값도 동일하게 업데이트\n\n\n\n\n3.1.4.2.2 Base Layout\n\n[Layout_Template_1.MPT] 파일을 열어 ’다른 이름으로 저장’하여 작성.\nPlate Carrier, Tip waste, Flush/Wash, Robot Arm 위치는 고정으로 변경할 수 없음. (하드웨어 상의 고정 위치)\n\n\n\n\n3.1.4.2.3 Plate Deck 사용 시 주의할 점\n\n\n3.1.4.2.4 Performance file\n\npipetting 동작 관련된 옵션을 조정할 수 있는 파일\n사용하려는 reagent의 특성에 따라 세밀하게 조정할 수 있음 (viscosity, bubble 주의 등)\n\nAspirate/Dispense speed:\nAspirate/Dispense delay:\nWaste volum e:\nBlowout volume:\nAir Gap:\n\n1개의 source에서 여러 well로 동일하게 분주할 경우 repeat dispense를 하면 tip 사용량을 줄이고 빠르게 진행할 수 있음\n\n다만 마지막 well의 분주양이 부족하다면 performance file 중 aspiration volume 구간에서 ‘waste volume’ 을 넣어주면 해결 가능\n\n\n\n\n\n\n3.1.4.2.5 Tip 사용갯수 조절하는 방법\n\n\n\n3.1.4.2.6 Source well의 V-bottom 사용 시 주의할 점\n\n1.5 mL Eppendorf tube에서 reagent 를 옮길 때에는 Liquid Tracking을 150% 로 조정한다.\nTube의 모양이 V-bottom 이어서 aspiration 시 tube가 딸려올 수 있음\n\n\n\n\n3.1.4.2.7 분주 시 reagent가 분주되지 않고 다음 well에 같이 분주되는 경우\n\nReagent 분주 시 볼륨이 작을 경우 tip 끝에 맺혀서 모든 용액이 다 분주 되지 않을 수 있음.\nManual로 분주하고자 하는 볼륨이 분주 되었을 때 bottom에서의 높이를 체크\nDispense Height 를 ’mm Above Well Bottom’으로 선택하여 수치 기입\n\n\n\n\n3.1.4.2.8 같은 동작 사용 시 n차 시 반응 수가 다를 때\n\nNumber of Executions:\n\nVar: Ask User\n\n프로토콜 구동 시 입력된 숫자로 구동\nDeck 에서 mapping 하고 반응 수가 일정하지 않을 경우 권장\nex) Master mix 분주할 때 오늘은 80 ea, 내일은 96 ea ,,\n\nVar: Calculate\n\n사용 x\n\nVar: Select\n\n사용 x\n\n\nFile: Keyword\n\ncsv 파일 적용 시 불러오기 옵션\n\nFile: Column\n\ncsv 파일 적용 시 불러오기 옵션\n\nFile: Records\n\ncsv파일로 mapping 시 선택 (가장 자주 사용)"
+    "text": "3.1 장비1: JANUS\n\n\n\n\n3.1.1 장비소개\n\nrevvity 사의 8-channel pipettes을 이용하는 liquid handler\n\n1 - 1000 ul 의 volume range\n5 ul volume: <2% CV\n\nUnit process: Liquid transfer\n\nPCA & PCR mix\nGibson assembly mix\nYeast Transformation mix\nEnzyme reaction mix\nEnzyme assay mix\ncell spotting\n\n다양한 labware의 사용이 가능하여 자유도가 높은 liquid handler 입니다.\nAutomatic stacker가 부착되어 있어 최대 10 개의 tip rack 사용이 가능합니다.\n\nStacker에 사용 가능한 labware: 25 ul/175 ul tip rack\n\n\n\n\n3.1.2 장비위치\n\nFully Automation_DNA workstation housing 내에 위치\n\n\n\n\n3.1.3 메뉴얼파일 위치\n\nshare:\\19_Equipment_장비_user’s_guide\n\n\n\n3.1.4 사용법\n\n3.1.4.1 사용가능한 Labware\n\n3.1.4.1.1 Support: 위치를 고정하는 Tile\n\nPlate-Adapter Support Tile\nPlate-Adapter Solid Med Support Tile: with Robotarm\nPlate Carrier\n\n\n\n3.1.4.1.2 Labware: Disposable Tips\n\n25ul Conductive Filter RoboRack Tips\n175ul Conductive Filter\n900ul Conductive Filter Tips\n\n\n\n3.1.4.1.3 Labware: plate, tube\n▶ 목록 외 labware 사용 시 ’Labware setting’을 통해 추가 가능함\n\n1 Well Plate\n108 well plate\n1536 well plate\n384 well plate\n\n384 square well: Nunc, Packard, Porvair, Costar\n384 well clear bottom: Biocoat, Costar, Falcon, Greiner, NUNC, Packard, PE ViewPlate,\n384 well clear bottom low volume: Greiner\n384 well filter plate: Whatman\n384 well flat bottom smal volume: Greiner\n384 well PCR plate: Costar, MJResearch, Polyfiltronics\n\n96 well plate\n\n96 Deep Well Filter Plate: 3M Empore, Ansys, Promega, Qiagen, Varian,\n96 Deep Well plate: BIONEER, perkinelmer-2ml, Beckman, Elkay, Axygen, Falcon-1ml, Mega, Polyfiltronics, Porvair, Qiagen, Seahorse, macrogen_oligo, Bioneer_oligo_plate\n96 Well Clear bottom: Biocoat, Costar, Falcon, Greiner, PE ViewPlate,\n96 well Filter Plate: Milapore, Packard, Whatman\n96 well flat bottom: Evergreen, NUNC, Porvair, Costar\n96 well PCR plate: BioRad, eppendorf, eppendorf_on_ice_rack, SSIBIO, SSIBIO_on_ice_rack\n96 well PCR rack: KRIBB, perkinelmer, 0.2ml_8-strips_tube\n96 well round: Costar, Corning, Falcon\nV-bottom plate: perkinelmer_V-bottom_Shortplate, Greiner\n\nBig well plate\n\n12 big well: Evergreen\n24 big well: Evergreen, Packard\n\nBioTx\nDrug Transport (Caco-2) Plates\nMicrofug\n\nKRIBB_24Pos_Tube\nKRIBB_2ml_Tube\n\nVials\n\n2ml_vial_32pos\n\n\n\n\n3.1.4.1.4 Labware: Reservoirs\n▶ Reagent 분주 시 reaction 수에 따라 적정 용량의 reservoir 를 사용하면 protocol 시간을 단축할 수 있습니다.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReservoir\n2 trough+ 2 trough\n24 well (deep)\n48 well\nWashbowl + 1 trough\nWashbowl + 2 trough\n4 well\n8 row\n12 column\n12 column (low profile)\n1 well\n\n\n\n\nWell\n4\n24\n48\n1\n2\n4\n8\n12\n12\n1\n\n\nvolume\n60 ml\n10 ml\n5 ml/7.5 ml\n\n\n73 ml\n\n21 ml\n\n287 ml\n\n\nPart no.\n\nN07777236\nN0777237 ,N0777238\n\n\n600 8710\n\n600 8700\n\n600 8730\n\n\n\n\n\n\n\n\n\n\n\n\n3.1.4.2 프로토콜 만들기\n\n3.1.4.2.1 Labware setting\n\n목록에 없는 새로운 labware를 사용하거나 기존 세팅 값이 맞지 않을 경우 진행\nQ. Labware parameter\n\nParameter window 에서 Support: Plate-Adapter support Tile(기본) 체크\n8-channel pipet의 간격이 9.0 mm로 well 간격이 9.0 mm 이하로 설정되면 1 channel씩 움직이게 되어 시간이 오래 소요될 수 있음.\n\n\n\nFirst well, first column: X,Y 축 위치 조정\nLast well, last column: X,Y 축 위치 조정\nZ축을 labware 위쪽으로 약 5 cm 올린 뒤 tip 하나 손으로 꽂아서 Z 축 내려가며 bottom 위치 측정\n\nstep size 0.7 로 조정하면 천천히, 힘이 과하게 강해질 경우 motor가 고장 날 수 있음.\n바닥에 닿으면 UP 두 번 올려서 Z 축 value 확인\n\nZ value – 39.8 (Tip 길이) = 수치 확인, Detail tap의 well bottom에 기입\n\nTip을 사용하지 않았을 경우 Z value 그대로 적용\n8개의 tip adapter 녹색 봉의 휘어짐 정도가 다름, Tip을 사용한 well bottom 측정이 좀 더 정확함\n\nTip 제거 후 녹색 봉이 labware 상단에서 X축 이동하는데 방해되지 않는 높이로 측정\n\nTop of well, search height 값도 동일하게 업데이트\n\n\n\n\n\n\nFirst well, first column 선택, Tip은 보통 2번을 사용\nGo to 를 눌러 A1으로 위치\n녹색 봉이 well 중앙에 위치할 수 있도록 X/Y Motors 를 조정 (중앙 확인이 어려울 경우 Z Motor를 내려서 (Down) 조정\nX/Y Motors 조정 시 Step size는 0.1 mm 권장\nWell 중앙에 위치했다면 Z Motor: Up을 이용해 plate에서 약 5 cm 정도 위로 올려줌\nTip을 하나 손으로 끼운 후 Step size는 0.7 mm로 Z Motor를 내려가며 바닥을 확인\n바닥에 닿으면 위로 두 번 올린 후 Z 수치에서 39.8을 뺀 값을 Detail tap의 well bottom에 기입→ Well bottom도 자동 업데이트됨\nTop of well 선택, Z Motor를 위로 올려 Tip을 제거, 녹색 봉이 plate 상단에서 X/Y로 움직일 수 있을 정도로 수치 조정 후 Update Z for all wells 체크, Update 실행, Search height 값도 동일하게 업데이트\n\n\n\n\n3.1.4.2.2 Base Layout\n\n[Layout_Template_1.MPT] 파일을 열어 ’다른 이름으로 저장’하여 작성.\nPlate Carrier, Tip waste, Flush/Wash, Robot Arm 위치는 고정으로 변경할 수 없음. (하드웨어 상의 고정 위치)\n\n\n\n\n3.1.4.2.3 Plate Deck 사용 시 주의할 점\n\n\n3.1.4.2.4 Performance file\n\npipetting 동작 관련된 옵션을 조정할 수 있는 파일\n사용하려는 reagent의 특성에 따라 세밀하게 조정할 수 있음 (viscosity, bubble 주의 등)\n\nAspirate/Dispense speed:\nAspirate/Dispense delay:\nWaste volum e:\nBlowout volume:\nAir Gap:\n\n1개의 source에서 여러 well로 동일하게 분주할 경우 repeat dispense를 하면 tip 사용량을 줄이고 빠르게 진행할 수 있음\n\n다만 마지막 well의 분주양이 부족하다면 performance file 중 aspiration volume 구간에서 ‘waste volume’ 을 넣어주면 해결 가능\n\n\n\n\n\n\n3.1.4.2.5 Tip 사용갯수 조절하는 방법\n\n\n\n3.1.4.2.6 Source well의 V-bottom 사용 시 주의할 점\n\n1.5 mL Eppendorf tube에서 reagent 를 옮길 때에는 Liquid Tracking을 150% 로 조정한다.\nTube의 모양이 V-bottom 이어서 aspiration 시 tube가 딸려올 수 있음\n\n\n\n\n3.1.4.2.7 분주 시 reagent가 분주되지 않고 다음 well에 같이 분주되는 경우\n\nReagent 분주 시 볼륨이 작을 경우 tip 끝에 맺혀서 모든 용액이 다 분주 되지 않을 수 있음.\nManual로 분주하고자 하는 볼륨이 분주 되었을 때 bottom에서의 높이를 체크\nDispense Height 를 ’mm Above Well Bottom’으로 선택하여 수치 기입\n\n\n\n\n3.1.4.2.8 같은 동작 사용 시 n차 시 반응 수가 다를 때\n\nNumber of Executions:\n\nVar: Ask User\n\n프로토콜 구동 시 입력된 숫자로 구동\nDeck 에서 mapping 하고 반응 수가 일정하지 않을 경우 권장\nex) Master mix 분주할 때 오늘은 80 ea, 내일은 96 ea ,,\n\nVar: Calculate\n\n사용 x\n\nVar: Select\n\n사용 x\n\n\nFile: Keyword\n\ncsv 파일 적용 시 불러오기 옵션\n\nFile: Column\n\ncsv 파일 적용 시 불러오기 옵션\n\nFile: Records\n\ncsv파일로 mapping 시 선택 (가장 자주 사용)"
   },
   {
     "objectID": "Liquid_Handler.html#장비2-ot-2",
     "href": "Liquid_Handler.html#장비2-ot-2",
-    "title": "3  Liquid handing",
+    "title": "3  Liquid handling",
     "section": "3.2 장비2: OT-2",
     "text": "3.2 장비2: OT-2\n\n3.2.1 장비소개\n\n3.2.1.1 장비설명\n\n\n3.2.1.2 장비위치\n\n\n\n3.2.2 메뉴얼파일 위치\n\n\n3.2.3 사용법"
   },
   {
     "objectID": "Liquid_Handler.html#장비3-notable",
     "href": "Liquid_Handler.html#장비3-notable",
-    "title": "3  Liquid handing",
+    "title": "3  Liquid handling",
     "section": "3.3 장비3: Notable",
     "text": "3.3 장비3: Notable\n\n3.3.1 장비소개\n\n3.3.1.1 장비설명\n\n\n3.3.1.2 장비위치\n\n\n\n3.3.2 메뉴얼파일 위치\n\n\n3.3.3 사용법"
   },
   {
     "objectID": "Liquid_Handler.html#장비4-ats",
     "href": "Liquid_Handler.html#장비4-ats",
-    "title": "3  Liquid handing",
+    "title": "3  Liquid handling",
     "section": "3.4 장비4: ATS",
     "text": "3.4 장비4: ATS\n\n3.4.1 장비소개\n\n3.4.1.1 장비설명\n\n\n3.4.1.2 장비위치\n\n\n\n3.4.2 메뉴얼파일 위치\n\n\n3.4.3 사용법"
   },
   {
     "objectID": "Zephyr.html#section",
     "href": "Zephyr.html#section",
-    "title": "4  96 channel Liquid handing",
+    "title": "4  96 channel Liquid handler",
     "section": "4.1 ",
     "text": "4.1"
   },
   {
     "objectID": "Zephyr.html#장비소개",
     "href": "Zephyr.html#장비소개",
-    "title": "4  96 channel Liquid handing",
+    "title": "4  96 channel Liquid handler",
     "section": "4.2 장비소개",
     "text": "4.2 장비소개\n\nAutomated NGS Library preparation system\n96-channel pipettes: 1-200 uL\n1-5 uL volume: <5% CV\n5-200 uL: <2% CV\n4-70 ℃ thermal heater and shaker\nMagnetic plate for DNA purification with magnetic bead\n96 well plate/384 well plate"
   },
   {
     "objectID": "Zephyr.html#장비위치",
     "href": "Zephyr.html#장비위치",
-    "title": "4  96 channel Liquid handing",
+    "title": "4  96 channel Liquid handler",
     "section": "4.3 장비위치",
     "text": "4.3 장비위치"
   },
   {
     "objectID": "Zephyr.html#메뉴얼-파일-위치",
     "href": "Zephyr.html#메뉴얼-파일-위치",
-    "title": "4  96 channel Liquid handing",
+    "title": "4  96 channel Liquid handler",
     "section": "4.4 메뉴얼 파일 위치",
     "text": "4.4 메뉴얼 파일 위치\nshare:\\19_Equipment_장비_user’s_guide"
   },
   {
     "objectID": "Zephyr.html#사용법",
     "href": "Zephyr.html#사용법",
-    "title": "4  96 channel Liquid handing",
+    "title": "4  96 channel Liquid handler",
     "section": "4.5 사용법",
     "text": "4.5 사용법"
   },
   {
     "objectID": "Zephyr.html#application-unit-process",
     "href": "Zephyr.html#application-unit-process",
-    "title": "4  96 channel Liquid handing",
+    "title": "4  96 channel Liquid handler",
     "section": "4.6 Application (unit process)",
     "text": "4.6 Application (unit process)\n\n4.6.1 NGS sample preparation\n\n4.6.1.1 시약\n\nNanopore sequencing Kit\n\n\n\n4.6.1.2 준비물\n\n시작물질: barcodePCR 반응액\n\n\n\n4.6.1.3 프로토콜\n\nNanopore pooling\n\n\n\n\n4.6.2 PCR fragment purification\n\n4.6.2.1 시약\n\nMagListo 5M PCR purification Kit (Bioneer)\n\n\n\n4.6.2.2 준비물\n\n시작물질: 96 well PCR plate에 담긴 PCR 반응액\n96-well storplate - 3 ea\n96-well PCR plate - 3 ea\nLid cover - 1 ea\n96-deep well 2 ml - 1 ea (re-use)\nZephyr 200 ul Filter tip - 2 rack\n\n\n\n4.6.2.3 실험비용\n\n키트 + 세팅비 = 96 rxn 기준, 151,087 원\n\n\n\n\n\n1 rxn\n96 rxn\ncost\n\n\n\n\nMagListo™ PCR/Gel Purification Kit\n1 ea\n1 ea\n72,600\n\n\nHard-Shell PCR plate-96, full skirt\n3 ea\n3 ea\n6,248\n\n\nStorPlate-96 V, 450 μL/well, 96-well /50\n3 ea\n3 ea\n8,646\n\n\nZephyr 200\n2 ea\n192 ea\n40,700\n\n\n\n\n\n128,194\n\n\n\n\n\n\n\n사용개수\n단가\n비용\n\n\n25ml Disposable Reservoirs, Sterile\n3\n972\n2,917\n\n\n100ml Disposable Reservoirs, Sterile\n2\n972\n1,945\n\n\n1250 ul, INTEGRA\n40\n54.78\n2,191\n\n\n\n\n\n22,893\n\n\n\n\n\n4.6.2.4 Labware Location\n\n\n\n4.6.2.5 프로토콜\n\nPurification1: running time 46 min ± 2 min\n\n\n\n\n4.6.3 E. coli Transformation\n\n4.6.3.1 시약\n\n\n4.6.3.2 준비물\n\n\n4.6.3.3 프로토콜\n\n\n\n4.6.4 Plasmid Extraction\n\n4.6.4.1 시약\n\nWizard MagneSil Plasmid Purifiaction System (Promega)\n\n\n\n4.6.4.2 준비물\n\nDeep well plate 용 shaker 추가 설치 필요\n\n2024-06월 현재 Zephyr에 설치된 shaker는 2mm orbital, 96-well PCR plate용으로 deep well plate 을 사용하게 되면 제대로 docking 되지 않아 rpm을 낮게 설정해야함. 낮은 rpm 값은 bead binding 과 washing, elution에 영향을 미쳐 효율이 좋지 않을 수 있음.\n\n96 well magnetic rod 추가 구매 필요\n\nZephyr에 설치된 magnetic plate는 ’Ring magnet’으로 liquid handler 이용 시 bead loss 가 발생할 수 있어 ’4 point post Magnet’을 권장함\n\n\n\n\n\n\n\n\n4.6.4.3 프로토콜\n\n\n\n4.6.5 Protein purification\n\n4.6.5.1 시약\n\nAffinity magnetic bead\n\n\n\n4.6.5.2 준비물\n\n시작물질: cell lysate - tagged protein\n\n\n\n4.6.5.3 프로토콜"
   },
   {
-    "objectID": "Echo525.html#장비소개",
-    "href": "Echo525.html#장비소개",
-    "title": "5  Nanoliter liquid handling",
-    "section": "5.1 장비소개",
-    "text": "5.1 장비소개\n\nAcoustic liquid dispenser\nAverage 300 drops/sec\nFor aqueous-based acoustic transfers\n25 nL drop volume, <8% CV\n96 well plate/384 well plate/1536 well plate\nFlexible and Reliable Transfer of Genomic Reagents\nApplication:\n\nPCR and qPCR reagents, synthetic biology reagents, NGS reagents, primers and probes, cell culture media, proteins, nucleic acids, up to 50 % glycerol, serum, plasma, and antibodies"
-  },
-  {
-    "objectID": "Echo525.html#메뉴얼-파일-위치",
-    "href": "Echo525.html#메뉴얼-파일-위치",
-    "title": "5  Nanoliter liquid handling",
-    "section": "5.2 메뉴얼 파일 위치",
-    "text": "5.2 메뉴얼 파일 위치"
-  },
-  {
-    "objectID": "Echo525.html#사용법",
-    "href": "Echo525.html#사용법",
-    "title": "5  Nanoliter liquid handling",
-    "section": "5.3 사용법",
-    "text": "5.3 사용법"
+    "objectID": "Echo525.html#장비-echo525",
+    "href": "Echo525.html#장비-echo525",
+    "title": "5  Nanoliter liquid handler",
+    "section": "5.1 장비: Echo525",
+    "text": "5.1 장비: Echo525\n\n\n5.1.1 장비소개\n\n로봇암과 연계된 Nanoliter liquid handler\nDrops 형태로 transfer 되어 별도의 disposable tip 없이 사용 가능함\nAcoustic liquid dispenser\nFor aqueous-based acoustic transfers \ntransfer 속도: Average 300 drops/sec\ntrasnfer volume: 25 nL drop volume, <8% CV\n사용가능한 labware: 96 well plate/384 well plate/1536 well plate\nFlexible and Reliable Transfer of Genomic Reagents\nApplication:\n\nPCR and qPCR reagents, synthetic biology reagents, NGS reagents, primers and probes, cell culture media, proteins, nucleic acids, up to 50 % glycerol, serum, plasma, and antibodies\n\n\n\n\n5.1.2 메뉴얼 파일 위치\n\nshare:\\19_Equipment\n\n\n\n5.1.3 사용법\n\n5.1.3.1 자주 묻는 질문들\n\nQ. 사용 가능한 labware는?\n\nSource Plate는 전용 plate만 사용 가능하며 dispensing plate 는 128.0 mm X 8.0 mm 의 hard-shell type 을 만족하면 well 수에 관계 없이 모두 가능합니다. (96 well, 384 well, 1536 well, black plate, PCR plate, assay plate 등등)\n\nQ. Dispensing volume 은 어떻게 되나요?\n\n1회 분주 시 최소 25 nL 에서 최대 500 nl 까지 가능합니다.\n동일한 reagent 를 10 uL 분주하고 싶을 경우 500 * 20회 로 설정하여 사용.\n최대 볼륨은 plate의 bottom 형태, well 크기 등에 따라 달라질 수 있습니다. (96 well PCR plate-V bottom, 50 ul)\n\nQ. 어떤 용액이 사용 가능한가요?\n\nCell을 제외한 모든 액체 형태는 가능하나 일부 특이 시료의 경우 테스트가 필요할 수 있습니다.\n\nQ. 사용을 위한 소모품은?\n\n음파를 이용한 전달 방식으로 tip과 같은 별도의 소모품이 필요하지 않습니다.\nSource plate와 Destination plate, reagent만 있으면 384개의 시료를 3분 내에 dispensing 할 수 있습니다.\n\n\n\n\n5.1.3.2 실제구동예시\n\n\n\n\n\n\n\n\n5.1.3.3 사용 전 체크사항\n\n5.1.3.3.1 1. 장비 준비사항\n\n\n\n5.1.3.3.2 2. 특별 주의사항\n\n\n\n5.1.3.3.3 3. 유지보수 항목\n\nDW/Air line 관련 tubing 들은 소모품으로 분류되며 연 1회 교체를 권장하는 항목임. (\n\n참고) Maintenance 의뢰 시 기기 가격의 10%로 측정될 수 있음\n\nAir pump와 air tubing에는 필터가 없어 주변 환경의 먼지가 많이 발생할 경우 노즐 막힘 현상이 발생할 수 있음.\n\n교체 없이 먼지 제거로 해결 가능하며 평균적으로 연 1회 tubing 교체 시 체크되는 항목이나 특수 상황에 의해 먼지가 많은 경우 짧은 시간 내에 막힐 수 있음\n\n\n\n\n5.1.3.3.4 4. Warning 상태알림\n\n\n\n\n\n5.1.3.4 Source plate 준비\n\n5.1.3.4.1 1. Liquid bubble 제거: Centrifuge (권장)\n\nEcho 사용 시 liquid를 넣어준 well에 bubble이 있을 경우 transfer error 발생. Plate centrifuge 를 통해 1) bubble 제거 및 2)well에 담긴 reagent 의 높이 평탄화 후 사용\nCentrifuge 조건: 1500xg, 3 min (2700 rpm, 3 min)\n\n\n\n\n5.1.3.4.2 2. Plate 정리: deionize\n\nS/W를 통한 정리\nEcho가 plate를 한 번 체크하면서 정리해주는 기능을 함\n\n\nhttps://youtube.com/shorts/iAME09zqxmY?feature=share\n\n\n5.1.3.4.3 3. Liquid volume check\n\n정확하진 않지만 well 에 담아져 있는 volume을 확인할 수 있음\n\n\n\n5.1.3.4.4 4. Transfer Calibration\n\n사용하고자 하는 reagent에 따라 적용해야하는 source plate와 음파 값이 다를 수 있음\ntransfer 전 테스트를 통해 확인하는 것을 권장함\n\n예시) \n\n\n\n\n\n\n5.1.3.5 Software 사용법 및 설정\n\n5.1.3.5.1 1. 장비연결\n\n\n\n5.1.3.5.2 2. Starting a New Protocol\n\n\n\n5.1.3.5.3 3. Mapping\n\n\n\n5.1.3.5.4 4. Plate설정\n\n\n\n5.1.3.5.5 5. Protocol setting\n\n\n\n5.1.3.5.6 6. Calibration Selection using 384PP (PPP-0200) Source Plate\n\n\n\n5.1.3.5.7 7. Appendix\n\n\n\n\n5.1.3.5.8 8. Dispense Simulate\n\n\nhttps://youtu.be/OxIc0MoX4mA\n\n\n\n5.1.3.6 Excel file을 이용한 mapping 방법\n\nSource well과 Destination well을 엑셀파일로 작성해서 import 할 경우 더 빠르게 활용 가능\n\n\n5.1.3.6.1 Import Region Definitions (.csv 불러오기)\n\n\n\n\n\n\n\n5.1.3.7 Echo525 Labware\n\ngripper 사용으로 인해 PP와 같이 딱딱한 경도의 plate만 사용 가능함\n\n\n5.1.3.7.1 1. Source plate\n\n\n\n5.1.3.7.2 2. Destination Plate\n\n\n\n\n\n\n\n\n\n\n5.1.3.7.3 3. MicroClime Environmental Lids\n\nMicroplate well 사용 시 증발을 막아주는 lid\n\n\n\n\n\n5.1.3.8 Transfer Error Definitions\n\n5.1.3.8.1 1. Plate Loading\n\n\n\n5.1.3.8.2 2. Survery - Fluid Determination\n\n\n\n5.1.3.8.3 3. Fluid Transfer"
   },
   {
     "objectID": "TrobotII.html#장비소개",

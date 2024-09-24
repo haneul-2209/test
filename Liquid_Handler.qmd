@@ -4,10 +4,10 @@ title: "Liquid handling"
  
 
 
-## 장비1: JANUS
+# 장비1: JANUS
 -   ![](images/paste-86.png){width="249"}
 
-### 장비소개
+## 장비소개
 
 -   revvity 사의 8-channel pipettes을 이용하는 liquid handler
 
@@ -29,33 +29,33 @@ title: "Liquid handling"
 
     -   Stacker에 사용 가능한 labware: 25 ul/175 ul tip rack
 
-### 장비위치
+## 장비위치
 
 -   Fully Automation_DNA workstation housing 내에 위치
 
 ![](images/paste-10.png){width="468"}
 
-### 메뉴얼파일 위치
+## 메뉴얼파일 위치
 
 -   share:\\19_Equipment\Biofoundry\바이오파운드리\_장비_user's_guide
 
-### 사용법
+## 사용법
 
-#### 사용가능한 Labware
+### 사용가능한 Labware
 
-##### Support: 위치를 고정하는 Tile
+#### Support: 위치를 고정하는 Tile
 
 -   Plate-Adapter Support Tile
 -   Plate-Adapter Solid Med Support Tile: with Robotarm
 -   Plate Carrier
 
-##### Labware: Disposable Tips
+#### Labware: Disposable Tips
 
 -   25ul Conductive Filter RoboRack Tips
 -   175ul Conductive Filter
 -   900ul Conductive Filter Tips
 
-##### Labware: plate, tube
+#### Labware: plate, tube
 
 ▶ 목록 외 labware 사용 시 'Labware setting'을 통해 추가 가능함
 
@@ -90,7 +90,7 @@ title: "Liquid handling"
 -   Vials
     -   2ml_vial_32pos
 
-##### Labware: Reservoirs
+#### Labware: Reservoirs
 
 ▶ Reagent 분주 시 reaction 수에 따라 적정 용량의 reservoir 를 사용하면 protocol 시간을 단축할 수 있습니다.
 
@@ -103,9 +103,9 @@ title: "Liquid handling"
 ![![](images/paste-6.png)](images/paste-4.png)
 
 
-#### 프로토콜 만들기
+### 프로토콜 만들기
 
-##### Labware setting
+#### Labware setting
 
 -   목록에 없는 새로운 labware를 사용하거나 기존 세팅 값이 맞지 않을 경우 진행
 
@@ -138,7 +138,7 @@ title: "Liquid handling"
     7.  바닥에 닿으면 위로 두 번 올린 후 Z 수치에서 39.8을 뺀 값을 Detail tap의 well bottom에 기입→ Well bottom도 자동 업데이트됨
     8.  Top of well 선택, Z Motor를 위로 올려 Tip을 제거, 녹색 봉이 plate 상단에서 X/Y로 움직일 수 있을 정도로 수치 조정 후 Update Z for all wells 체크, Update 실행, Search height 값도 동일하게 업데이트
 
-##### Base Layout
+#### Base Layout
 
 -   \[Layout_Template_1.MPT\] 파일을 열어 '다른 이름으로 저장'하여 작성.
 
@@ -146,9 +146,9 @@ title: "Liquid handling"
 
 ![](images/paste-8.png)
 
-##### Plate Deck 사용 시 주의할 점
+#### Plate Deck 사용 시 주의할 점
 
-##### Performance file
+#### Performance file
 
 -   pipetting 동작 관련된 옵션을 조정할 수 있는 파일
 
@@ -176,7 +176,7 @@ title: "Liquid handling"
 
 ![](images/paste-20.png)
 
-##### Source well의 V-bottom 사용 시 주의할 점
+### Source well의 V-bottom 사용 시 주의할 점
 
 -   1.5 mL Eppendorf tube에서 reagent 를 옮길 때에는 Liquid Tracking을 150% 로 조정한다.
 
@@ -184,7 +184,7 @@ title: "Liquid handling"
 
 ![](images/paste-23.png)
 
-##### 분주 시 reagent가 분주되지 않고 다음 well에 같이 분주되는 경우
+#### 분주 시 reagent가 분주되지 않고 다음 well에 같이 분주되는 경우
 
 1.  Reagent 분주 시 볼륨이 작을 경우 tip 끝에 맺혀서 모든 용액이 다 분주 되지 않을 수 있음.
 2.  Manual로 분주하고자 하는 볼륨이 분주 되었을 때 bottom에서의 높이를 체크
@@ -192,7 +192,7 @@ title: "Liquid handling"
 
 ![](images/paste-24.png)
 
-##### 같은 동작 사용 시 n차 시 반응 수가 다를 때
+#### 같은 동작 사용 시 n차 시 반응 수가 다를 때
 
 -   Number of Executions:
 
@@ -229,40 +229,40 @@ title: "Liquid handling"
 -   ![](images/paste-26.png)
 -   
 
-## 장비2: OT-2
+# 장비2: OT-2
 
-### 장비소개
+## 장비소개
 
-#### 장비설명
+### 장비설명
 
-#### 장비위치
+### 장비위치
 
-### 메뉴얼파일 위치
+## 메뉴얼파일 위치
 
-### 사용법
+## 사용법
 
-## 장비3: Notable
+# 장비3: Notable
 
-### 장비소개
+## 장비소개
 
-#### 장비설명
+### 장비설명
 
-#### 장비위치
+### 장비위치
 
-### 메뉴얼파일 위치
+## 메뉴얼파일 위치
 
-### 사용법
+## 사용법
 
-## 장비4: ATS
+# 장비4: ATS
 
-### 장비소개
+## 장비소개
 
-#### 장비설명
+### 장비설명
 
-#### 장비위치
+### 장비위치
 
-### 메뉴얼파일 위치
+## 메뉴얼파일 위치
 
-### 사용법
+## 사용법
 
 

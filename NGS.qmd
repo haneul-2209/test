@@ -1,0 +1,40 @@
+---
+title: "Next Generation Sequencing"
+---
+
+
+
+# 장비1: GridION
+
+![](images/paste-40.png){width="168"}
+
+## 장비소개
+
+- Run multiple DNA/RNA sequencing experiments: 1 -5 flow cells
+- Long read: up to 250 Gb (72 hours at 420 bases/sec)
+
+## 장비위치
+
+## 메뉴얼 파일 위치
+
+## 사용법
+
+
+# 장비2: iSeq100
+
+![](images/paste-36.png){width="95"}
+
+## 장비소개: iSeq100
+
+- Short read: max output 1.2 Gb (19 hours)
+- Reads per run: 4 million
+- Max read length: 2 x 150 bp
+
+
+## 장비위치
+
+
+## 메뉴얼 파일 위치
+share:\\19_Equipment\Biofoundry\바이오파운드리_장비_user's_guide\iSeq 100_illumina
+
+## 사용법

@@ -15,19 +15,15 @@ book:
   chapters:
     - index.qmd   
     - plateworks.qmd
-    - Liquid_Handler.qmd
-    - Zephyr.qmd
+    - Liquid_Handler.qmd 
     - Echo525.qmd
     - TrobotII.qmd
-    - 5400_Fragment_analyzer.qmd
-    - OT-2.qmd
-    - ATS.qmd
+    - 5400_Fragment_analyzer.qmd  
     - Qiacube.qmd
     - K6².qmd
     - SPARK.qmd
     - FACSAria.qmd
-    - iSeq.qmd
-    - GridION.qmd
+    - NGS.qmd
     
 
     
