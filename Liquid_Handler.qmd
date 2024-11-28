@@ -1,10 +1,9 @@
 ---
-title: "Liquid handling"
+title: "Liquid handler"
 ---
- 
 
+# 장비: JANUS
 
-# 장비1: JANUS
 -   ![](images/paste-86.png){width="249"}
 
 ## 장비소개
@@ -16,6 +15,7 @@ title: "Liquid handling"
     -   5 ul volume: \<2% CV
 
 -   Unit process: Liquid transfer
+
     -   PCA & PCR mix
     -   Gibson assembly mix
     -   Yeast Transformation mix
@@ -37,7 +37,7 @@ title: "Liquid handling"
 
 ## 메뉴얼파일 위치
 
--   share:\\19_Equipment\Biofoundry\바이오파운드리\_장비_user's_guide
+-   share:\\19_Equipment\Biofoundry\바이오파운드리_장비_user's_guide
 
 ## 사용법
 
@@ -95,13 +95,12 @@ title: "Liquid handling"
 ▶ Reagent 분주 시 reaction 수에 따라 적정 용량의 reservoir 를 사용하면 protocol 시간을 단축할 수 있습니다.
 
 | Reservoir | 2 trough+ 2 trough | 24 well (deep) | 48 well            | Washbowl + 1 trough | Washbowl + 2 trough | 4 well   | 8 row | 12 column | 12 column (low profile) | 1 well   |
-|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|-----------|--------------------|----------------|--------------------|---------------------|---------------------|----------|-------|-----------|-------------------------|----------|
 | Well      | 4                  | 24             | 48                 | 1                   | 2                   | 4        | 8     | 12        | 12                      | 1        |
 | volume    | 60 ml              | 10 ml          | 5 ml/7.5 ml        |                     |                     | 73 ml    |       | 21 ml     |                         | 287 ml   |
 | Part no.  |                    | N07777236      | N0777237 ,N0777238 |                     |                     | 600 8710 |       | 600 8700  |                         | 600 8730 |
 
 ![![](images/paste-6.png)](images/paste-4.png)
-
 
 ### 프로토콜 만들기
 
@@ -227,9 +226,10 @@ title: "Liquid handling"
         -   csv파일로 mapping 시 선택 (가장 자주 사용)
 
 -   ![](images/paste-26.png)
+
 -   
 
-# 장비2: OT-2
+# 장비: OT-2
 
 ## 장비소개
 
@@ -241,7 +241,7 @@ title: "Liquid handling"
 
 ## 사용법
 
-# 장비3: Notable
+# 장비: Notable
 
 ## 장비소개
 
@@ -253,7 +253,7 @@ title: "Liquid handling"
 
 ## 사용법
 
-# 장비4: ATS
+# 장비: ATS
 
 ## 장비소개
 
@@ -265,4 +265,225 @@ title: "Liquid handling"
 
 ## 사용법
 
+# 장비: Zephyr
 
+-   ![](images/paste-83.png){width="211"}
+
+## 장비소개
+
+-   Automated NGS Library preparation system
+
+-   96-channel pipettes: 1-200 uL
+
+-   1-5 uL volume: \<5% CV
+
+-   5-200 uL: \<2% CV
+
+-   4-70 ℃ thermal heater and shaker
+
+-   Magnetic plate for DNA purification with magnetic bead
+
+-   96 well plate/384 well plate
+
+### 장비설명
+
+### 장비위치
+
+![](images/paste-34.png){width="604"}
+
+## 메뉴얼파일 위치
+
+hare:\\19_Equipment\Biofoundry\바이오파운드리_장비_user's_guide\Zephyr
+
+## 사용법
+
+### Unit operation: NGS sample preparation
+
+#### 시약
+
+-   Nanopore sequencing Kit
+
+#### 준비물
+
+-   시작물질: barcodePCR 반응액
+
+#### 프로토콜
+
+-   Nanopore pooling
+
+### Unit operation: PCR fragment purification
+
+#### 시약
+
+-   MagListo 5M PCR purification Kit (Bioneer)
+
+#### 준비물
+
+-   시작물질: 96 well PCR plate에 담긴 PCR 반응액
+
+-   96-well storplate - 3 ea
+
+-   96-well PCR plate - 3 ea
+
+-   Lid cover - 1 ea
+
+-   96-deep well 2 ml - 1 ea (re-use)
+
+-   Zephyr 200 ul Filter tip - 2 rack
+
+#### 실험비용
+
+-   키트 + 세팅비 = 96 rxn 기준, 151,087 원
+
+|                                          | 1 rxn | 96 rxn |  cost   |
+|------------------------------------------|:-----:|:------:|:-------:|
+| MagListo™ PCR/Gel Purification Kit       | 1 ea  |  1 ea  | 72,600  |
+| Hard-Shell PCR plate-96, full skirt      | 3 ea  |  3 ea  |  6,248  |
+| StorPlate-96 V, 450 μL/well, 96-well /50 | 3 ea  |  3 ea  |  8,646  |
+| Zephyr 200                               | 2 ea  | 192 ea | 40,700  |
+|                                          |       |        | 128,194 |
+
+|                                      |          |       |        |
+|--------------------------------------|:--------:|:-----:|:------:|
+|                                      | 사용개수 | 단가  |  비용  |
+| 25ml Disposable Reservoirs, Sterile  |    3     |  972  | 2,917  |
+| 100ml Disposable Reservoirs, Sterile |    2     |  972  | 1,945  |
+| 1250 ul, INTEGRA                     |    40    | 54.78 | 2,191  |
+|                                      |          |       | 22,893 |
+
+#### Labware Location
+
+![](images/paste-59.png){width="668"}
+
+#### 프로토콜
+
+-   Purification1: running time 46 min ± 2 min
+
+### Unit operation: Size selection
+
+#### 시약
+
+-   SPRIselect bead (Beckman)
+
+#### 준비물
+
+-   시작물질: pcr product mixture
+
+#### 실험비용
+
+-   SPRIselect bead 구매 규격에 따라 319,932 에서 154,064로 낮출 수 있음
+
+|                                     | 1 rxn | 96 rxn | 단가   | 96 cost |
+|-------------------------------------|-------|--------|--------|---------|
+| SPRIselect reagent 5ml              | 1     | 96     | 2,032  | 195,096 |
+| Hard-Shell PCR plate-96, full skirt | 3     | 3      | 6,248  | 18,744  |
+| Zephyr 200                          | 4     | 384    | 212    | 81,400  |
+| 25ml Disposable Reservoirs, Sterile | 3     | 3      | 972    | 2,916   |
+| 1250 ul, INTEGRA                    | 2     | 16     | 54.78  | 876     |
+| 1 well reservoir                    | 1     | 1      | 20,900 | 20,900  |
+| 합계                                |       |        |        | 319,932 |
+| SPRIselect reagent 60 ml            | 1     | 96     | 552    | 52,963  |
+| 합계                                |       |        |        | 177,799 |
+| SPRIselect reagent 450 ml           | 1     | 96     | 304    | 29,227  |
+| 합계                                |       |        |        | 154,064 |
+
+#### Labware location
+
+![](images/clipboard-1600943730.png)
+
+#### 프로토콜
+
+1.  PCR mixture + Magnetic bead, mix (Bead resuspension 필요)-10번 mix
+2.  RT에서 1 분간 방치
+3.  Magnet 으로 옮겨서 supernatant 제거
+4.  3)에 180 μL EtOH 넣고 30초 방치
+5.  Supernatant 제거
+6.  DW or TE buffer 40 uL, 10번 mix or vortexing 1 min
+7.  RT에서 1 분간 방치
+8.  Magnet으로 옮겨서 new plate에 supernatant 취득
+
+### Unit operation: E. coli Transformation
+
+#### 시약
+
+-   comp. cell
+
+-   recovery broth
+
+#### 준비물
+
+-   DNA plate, 2-5 ul / 96 well PCR plate
+
+-   Comp. cell plate, 30 ul / 96 well PCR plate
+
+-   recovery broth, 15 ml / PP V-bottom reservoir
+
+-   Agar tray plate, 1 ea
+
+-   Zephyr Tip, 2 box
+
+-   Universal Clear Lid, 2 ea
+
+#### 실험비용
+
+| Zephyr                              | 구매단가 | 1 rxn 사용 | 총 비용 | 96 rxn | 총비용 |
+|-------------------------------------|----------|------------|---------|--------|--------|
+| Tray plate                          | 1,186    | 1          | 1,186   | 1      | 1,186  |
+| Zephyr, 200                         | 212      | 2          | 424     | 192    | 40,700 |
+| PP reservoir, 287 ml, V-bottom      | 20,900   | 1          | 20,900  | 1      | 20,900 |
+| Universal Clear Lids                | 4,466    | 2          | 8,932   | 2      | 8,932  |
+| Hard-Shell PCR plate-96, full skirt | 6,248    | 2          | 12,496  | 2      | 12,496 |
+|                                     |          |            | 43,938  |        | 84,214 |
+
+| Manual           | 구매단가 | 1 rxn 사용 | 총 비용 | 96 rxn | 총비용 |
+|------------------|----------|------------|---------|--------|--------|
+| petri dish       | 118.8    | 1          | 118.8   | 96     | 11,405 |
+| SPREADER         | 166.2    | 1          | 166.2   | 96     | 15,959 |
+| Manual Tip, 1000 | 100.8    | 2          | 201.7   | 192    | 19,360 |
+| Manual Tip, 200  | 100.8    | 2          | 201.7   | 192    | 19,360 |
+| 1.5 ml tube      | 33       | 1          | 33      | 96     | 3,168  |
+|                  |          |            | 721.4   |        | 69,252 |
+
+#### Labware Location
+
+![](images/clipboard-1650577697.png)
+
+![](images/clipboard-1095159767.png)
+
+#### 프로토콜
+
+-   Running Time: 2 hours
+
+### Unit operation: Plasmid Extraction
+
+#### 시약
+
+-   Wizard MagneSil Plasmid Purifiaction System (Promega)
+
+#### 준비물
+
+-   Deep well plate 용 shaker 추가 설치 필요
+
+    -   2024-06월 현재 Zephyr에 설치된 shaker는 2mm orbital, 96-well PCR plate용으로 deep well plate 을 사용하게 되면 제대로 docking 되지 않아 rpm을 낮게 설정해야함. 낮은 rpm 값은 bead binding 과 washing, elution에 영향을 미쳐 효율이 좋지 않을 수 있음.
+
+-   96 well magnetic rod 추가 구매 필요
+
+    -   Zephyr에 설치된 magnetic plate는 'Ring magnet'으로 liquid handler 이용 시 bead loss 가 발생할 수 있어 '4 point post Magnet'을 권장함
+
+    <!-- -->
+
+    -   ![](images/paste-27.png){width="590"}
+
+#### 프로토콜
+
+### Unit operation: Protein purification
+
+#### 시약
+
+-   Affinity magnetic bead
+
+#### 준비물
+
+-   시작물질: cell lysate - tagged protein
+
+#### 프로토콜
