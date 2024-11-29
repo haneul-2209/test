@@ -11,7 +11,7 @@ title: "plateworks: "
 
 ## 연계장비
 
--   ![](images/paste-44.png){width="188"}![](images/paste-47.png){width="147"}![](images/paste-46.png){width="186"}
+-   ![](images/paste-44.png){width="150"}![](images/paste-47.png){width="150"}![](images/paste-46.png){width="150"} ![](images/sealer.png){width="150"} ![](images/peeler.png){width="150"}
 
 ![](images/paste-94.png){width="569"}
 

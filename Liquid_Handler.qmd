@@ -230,8 +230,14 @@ title: "Liquid handler"
 -   
 
 # 장비: OT-2
+![](images/OT-2.png)
 
 ## 장비소개
+Single-Channel pipette (P20)
+Thermocycler Module
+Magnetic Module
+Open protocol
+1.5 mL, 1.8 mL, 2. mL micro tube/8-strips 0.2 ml tubes/96 well plate
 
 ### 장비설명
 
