@@ -1,7 +1,8 @@
 ---
-title: "SPARK"
+title: "Microplate reading"
 ---
 
+# 장비: SPARK (Tecan)
 ![](images/paste-39.png){width="175"}
 
 ## 장비소개
@@ -16,6 +17,11 @@ title: "SPARK"
 
 -   ELISA
 
-## 메뉴얼 파일 위치
+
+### 장비설명
+
+### 장비위치
+
+## 메뉴얼파일 위치
 
 ## 사용법

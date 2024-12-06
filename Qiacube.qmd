@@ -1,11 +1,12 @@
 ---
-title: "Qiacube"
+title: "Nucleric aicd purification"
 ---
+
+# 장비: Qiacube (Qiagen)
 
 ![](images/paste-38.png){width="170"}
 
 ## 장비소개
-
 -   Automated DNA/RNA prep
 
 -   Various sample types (spin-column)
@@ -19,10 +20,11 @@ title: "Qiacube"
 -   Applications
 
     -   Sequencing/sequencing analysis, gene expression analysis, genotyping, proteomics, microbiome research
+    -   
+### 장비설명
 
-## 메뉴얼 파일 위치
+### 장비위치
 
-share:\\19_Equipment\Biofoundry\바이오파운드리_장비_user's_guide\QIAcube
+## 메뉴얼파일 위치
 
 ## 사용법
-- 시작물질: over night cultured E. coli 2 ml, cell pelet
